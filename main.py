@@ -80,4 +80,15 @@ df_com_desconto = df_com_bruto.withColumn(
 )
 df_com_desconto.select('valor_bruto','desconto_pct','valor_com_desconto').show(10)
 
+# df final
+df_final = df_com_desconto.withColumn(
+    'valor_final',
+    spark_round(col('valor_com_desconto') + col('frete'), 2)
+)
+
+df_final.select(
+    'pedido_id','produto','quantidade','preco_unitario','desconto_pct',
+    'frete','valor_bruto','valor_com_desconto','valor_final'
+).show(10, truncate=False)
+
 spark.stop()
