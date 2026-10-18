@@ -19,17 +19,17 @@ df = (
 )
 
 # Ver a estrutura
-# print("**** ESTRUTURA ****")
-# df.printSchema()
+print("**** ESTRUTURA ****")
+df.printSchema()
 
 # Ver as primeiras linhas
-# df.show(5, truncate=False)
+df.show(5, truncate=False)
 
 # Contar registros
-# print(f"Total de registros: {df.count()}")
+print(f"Total de registros: {df.count()}")
 
 # Selecionar colunas específicas
-# df.select('cliente', 'cidade', 'produto', 'preco_unitario').show(10)
+df.select('cliente', 'cidade', 'produto', 'preco_unitario').show(10)
 
 # Função col()
 df.select(col('cliente'), col('preco_unitario'), col('quantidade')).show(10)
@@ -47,5 +47,9 @@ df.filter(col('preco_unitario') > 1000).select('cliente','preco_unitario', 'prod
 
 # Pedidos com eletrônicos - coluna categoria
 df.filter(col('categoria') == 'Eletrônicos').select('produto', 'data_pedido', 'quantidade').show()
+
+# Eletrônicos com preço superior a 500
+df.filter((col('categoria') == 'Eletrônicos') & (col('preco_unitario') > 500)).select('produto', 'data_pedido','quantidade','preco_unitario').show()
+
 spark.stop()
 
