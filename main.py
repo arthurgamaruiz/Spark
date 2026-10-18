@@ -29,7 +29,9 @@ df = (
 # print(f"Total de registros: {df.count()}")
 
 # Selecionar colunas específicas
-df.select('cliente', 'cidade', 'produto', 'preco_unitario').show(10)
+# df.select('cliente', 'cidade', 'produto', 'preco_unitario').show(10)
 
+# Função col()
+df.select(col('cliente'), col('preco_unitario'), col('quantidade')).show(10)
 spark.stop()
 
