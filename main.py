@@ -51,5 +51,12 @@ df.filter(col('categoria') == 'Eletrônicos').select('produto', 'data_pedido', '
 # Eletrônicos com preço superior a 500
 df.filter((col('categoria') == 'Eletrônicos') & (col('preco_unitario') > 500)).select('produto', 'data_pedido','quantidade','preco_unitario').show()
 
+# Pedidos cancelados OU devolvidos
+df.filter(
+    (col("status_pedido") == "Cancelado") | (col("status_pedido") == "Devolvido")
+).select('status_pedido', 'produto','cliente').show(10)
+
+# Atalho com isin()
+df.filter(col("status_pedido").isin("Cancelado", "Devolvido")).select('status_pedido', 'produto','cliente').show(10)
 spark.stop()
 
