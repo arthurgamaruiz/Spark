@@ -1,0 +1,501 @@
+pedido_id,cliente,idade_cliente,data_pedido,cidade,estado,categoria,produto,quantidade,preco_unitario,desconto_pct,frete,forma_pagamento,status_pedido,canal_venda,dispositivo,cupom,avaliacao
+PED00001,Valentina Dias,23,2025-04-15,São Bernardo do Campo,SP,Alimentos,Café em grãos,1,930.17,0.00,10.04,Cartão de crédito,Em transporte,Aplicativo,iOS,,5
+PED00002,Ana Souza,69,2026-03-06,Santos,PR,Vestuário,Calça jeans,1,258.56,0.20,31.56,Boleto,Entregue,Aplicativo,iOS,CLIENTE15,5
+PED00003,Diego Alves,52,2025-09-28,São Bernardo do Campo,SP,Eletrônicos,Carregador USB-C,1,132.19,0.25,15.48,Boleto,Processando,Loja física,Outro,FRETEGRATIS,5
+PED00004,Isabela Ferreira,42,2025-03-23,Guarulhos,MG,Alimentos,Chá,1,830.81,0.25,13.02,Boleto,Cancelado,Loja física,iOS,CLIENTE15,5
+PED00005,Isabela Ferreira,42,2026-07-01,Osasco,RJ,Alimentos,Chocolate,5,814.44,0.15,28.57,Cartão de crédito,Em transporte,Aplicativo,Android,CLIENTE15,3
+PED00006,Paula Nunes,74,2025-11-19,Santos,MG,Esportes,Tapete de yoga,1,273.59,0.15,39.44,Pix,Entregue,Loja física,Outro,BLACK25,4
+PED00007,Felipe Rocha,27,2025-04-04,São Bernardo do Campo,SC,Vestuário,Camiseta,2,283.91,0.00,22.93,Cartão de débito,Processando,Marketplace,Outro,BLACK25,5
+PED00008,Larissa Gomes,35,2025-04-28,Campinas,MG,Vestuário,Tênis casual,1,697.12,0.00,30.61,Pix,Em transporte,Marketplace,Android,CLIENTE15,4
+PED00009,Eduarda Costa,30,2025-11-02,São José dos Campos,RJ,Vestuário,Meias,3,640.76,0.00,39.17,Cartão de crédito,Processando,Loja física,macOS,BEMVINDO10,4
+PED00010,Carla Mendes,23,2025-09-03,Guarulhos,SP,Eletrônicos,Carregador USB-C,5,1099.92,0.25,36.30,Pix,Entregue,Aplicativo,macOS,,5
+PED00011,João Ribeiro,63,2026-07-07,São Bernardo do Campo,MG,Casa,Organizador,1,1092.14,0.10,43.40,Cartão de débito,Processando,Site,iOS,FRETEGRATIS,5
+PED00012,Carla Mendes,32,2025-01-08,São Paulo,MG,Eletrônicos,Fone Bluetooth,1,740.53,0.00,26.48,Pix,Entregue,Loja física,macOS,FRETEGRATIS,5
+PED00013,Diego Alves,30,2025-09-06,Campinas,PR,Vestuário,Calça jeans,1,1170.20,0.15,25.93,Cartão de débito,Processando,Marketplace,macOS,BEMVINDO10,5
+PED00014,Gabriela Martins,30,2025-12-14,Osasco,PR,Alimentos,Chá,3,812.15,0.00,18.12,Cartão de débito,Processando,Aplicativo,Windows,BLACK25,3
+PED00015,Ana Souza,52,2026-07-18,Campinas,RJ,Casa,Luminária,4,105.79,0.25,38.76,Cartão de débito,Entregue,Marketplace,macOS,FRETEGRATIS,5
+PED00016,Otávio Santos,36,2025-09-29,Osasco,PR,Esportes,Tapete de yoga,5,216.24,0.00,44.34,Pix,Cancelado,Loja física,iOS,BEMVINDO10,5
+PED00017,Felipe Rocha,51,2026-08-22,São Paulo,SC,Vestuário,Camiseta,3,87.93,0.05,2.57,Pix,Entregue,Site,Outro,BEMVINDO10,
+PED00018,Valentina Dias,60,2026-09-01,Jundiaí,SC,Alimentos,Chocolate,4,512.17,0.15,11.08,Boleto,Entregue,Aplicativo,Windows,FRETEGRATIS,2
+PED00019,Diego Alves,54,2025-03-16,Campinas,SC,Livros,Livro técnico,2,843.72,0.05,20.58,Boleto,Entregue,Aplicativo,Windows,BEMVINDO10,5
+PED00020,Sofia Oliveira,59,2025-11-06,São Paulo,SC,Casa,Jogo de panelas,2,207.71,0.25,24.44,Cartão de crédito,Em transporte,Aplicativo,Windows,BEMVINDO10,
+PED00021,Sofia Oliveira,34,2025-12-18,Guarulhos,MG,Eletrônicos,Fone Bluetooth,3,204.87,0.05,27.22,Cartão de crédito,Entregue,Marketplace,Windows,BEMVINDO10,5
+PED00022,Diego Alves,18,2026-03-29,Campinas,RJ,Eletrônicos,Carregador USB-C,1,174.39,0.05,7.27,Cartão de crédito,Em transporte,Loja física,Outro,,4
+PED00023,Diego Alves,33,2025-02-10,São José dos Campos,SC,Casa,Organizador,2,64.26,0.05,40.45,Pix,Cancelado,Aplicativo,iOS,FRETEGRATIS,3
+PED00024,Henrique Silva,69,2026-02-26,Ribeirão Preto,RJ,Esportes,Garrafa térmica,1,924.00,0.05,35.21,Cartão de débito,Processando,Site,macOS,FRETEGRATIS,5
+PED00025,Larissa Gomes,43,2025-08-22,Ribeirão Preto,SP,Casa,Jogo de panelas,4,582.13,0.05,36.92,Boleto,Entregue,Marketplace,Outro,CLIENTE15,5
+PED00026,Larissa Gomes,40,2025-09-29,São Bernardo do Campo,SC,Eletrônicos,Carregador USB-C,1,1213.37,0.00,26.13,Cartão de crédito,Entregue,Marketplace,Outro,FRETEGRATIS,5
+PED00027,Gabriela Martins,65,2026-07-06,São José dos Campos,PR,Livros,Livro de ficção,1,552.12,0.15,41.65,Boleto,Em transporte,Loja física,Android,CLIENTE15,
+PED00028,Felipe Rocha,42,2026-07-22,Jundiaí,SC,Vestuário,Calça jeans,1,517.89,0.10,31.37,Cartão de débito,Entregue,Site,Windows,CLIENTE15,4
+PED00029,Felipe Rocha,48,2026-03-29,Campinas,MG,Casa,Toalha de banho,2,730.23,0.20,14.50,Boleto,Entregue,Site,iOS,CLIENTE15,3
+PED00030,Otávio Santos,47,2026-05-02,Jundiaí,RJ,Casa,Organizador,4,194.85,0.00,11.02,Cartão de débito,Em transporte,Marketplace,iOS,FRETEGRATIS,5
+PED00031,Sofia Oliveira,69,2025-04-20,Guarulhos,SP,Alimentos,Azeite,3,1117.17,0.25,34.65,Pix,Processando,Site,macOS,FRETEGRATIS,3
+PED00032,Otávio Santos,50,2026-03-30,Osasco,PR,Esportes,Tapete de yoga,3,1235.02,0.15,14.28,Cartão de débito,Em transporte,Marketplace,Windows,FRETEGRATIS,5
+PED00033,Isabela Ferreira,33,2025-10-09,São José dos Campos,MG,Alimentos,Azeite,1,974.87,0.10,28.20,Cartão de crédito,Entregue,Aplicativo,iOS,FRETEGRATIS,5
+PED00034,Otávio Santos,31,2025-12-05,São Bernardo do Campo,SC,Esportes,Garrafa térmica,3,886.69,0.00,18.67,Cartão de débito,Entregue,Marketplace,Android,CLIENTE15,4
+PED00035,Henrique Silva,49,2026-07-14,Ribeirão Preto,PR,Livros,Agenda,3,1068.64,0.25,18.86,Cartão de crédito,Processando,Marketplace,Windows,BLACK25,5
+PED00036,Ana Souza,54,2026-07-01,Campinas,PR,Alimentos,Chá,1,590.90,0.00,44.13,Cartão de débito,Entregue,Aplicativo,Android,CLIENTE15,4
+PED00037,Isabela Ferreira,44,2026-01-24,Campinas,PR,Esportes,Garrafa térmica,1,575.19,0.05,34.26,Cartão de crédito,Entregue,Loja física,iOS,BEMVINDO10,
+PED00038,Diego Alves,48,2025-01-21,Jundiaí,RJ,Alimentos,Granola,1,50.90,0.00,8.97,Boleto,Em transporte,Loja física,iOS,,3
+PED00039,Valentina Dias,37,2025-11-15,São Bernardo do Campo,PR,Vestuário,Jaqueta,6,901.47,0.25,36.87,Cartão de crédito,Entregue,Aplicativo,Android,CLIENTE15,1
+PED00040,Sofia Oliveira,22,2025-12-22,São José dos Campos,SP,Alimentos,Granola,2,162.31,0.15,35.22,Cartão de débito,Entregue,Site,macOS,CLIENTE15,5
+PED00041,Thiago Moreira,69,2026-06-19,Guarulhos,PR,Alimentos,Granola,5,581.43,0.00,19.60,Boleto,Devolvido,Loja física,iOS,BEMVINDO10,4
+PED00042,Felipe Rocha,38,2026-01-24,Guarulhos,RJ,Livros,Caderno,4,314.28,0.10,25.64,Boleto,Entregue,Loja física,Windows,,4
+PED00043,Henrique Silva,53,2025-03-29,Guarulhos,PR,Alimentos,Granola,4,700.29,0.15,42.66,Cartão de crédito,Entregue,Site,Windows,FRETEGRATIS,4
+PED00044,Thiago Moreira,65,2026-07-21,São José dos Campos,MG,Esportes,Mochila esportiva,3,391.43,0.15,16.61,Boleto,Entregue,Loja física,Windows,FRETEGRATIS,4
+PED00045,Valentina Dias,35,2025-07-09,Osasco,SC,Eletrônicos,Teclado mecânico,3,402.99,0.20,24.11,Cartão de crédito,Entregue,Aplicativo,Windows,FRETEGRATIS,5
+PED00046,Eduarda Costa,62,2025-02-16,Guarulhos,SP,Livros,Livro de ficção,1,30.01,0.15,5.70,Boleto,Devolvido,Marketplace,macOS,BLACK25,5
+PED00047,Bruno Lima,58,2025-03-08,Santos,RJ,Livros,Livro de história,1,76.08,0.25,21.50,Boleto,Entregue,Site,iOS,BEMVINDO10,2
+PED00048,Valentina Dias,37,2026-06-20,São Bernardo do Campo,MG,Vestuário,Meias,3,762.82,0.25,27.83,Cartão de crédito,Entregue,Site,iOS,FRETEGRATIS,
+PED00049,Rafael Teixeira,56,2025-06-10,Ribeirão Preto,SP,Livros,Livro técnico,3,206.86,0.00,24.84,Boleto,Entregue,Loja física,macOS,BEMVINDO10,4
+PED00050,Eduarda Costa,59,2025-07-22,Ribeirão Preto,RJ,Alimentos,Café em grãos,1,339.89,0.25,28.13,Cartão de crédito,Entregue,Aplicativo,Windows,,5
+PED00051,Thiago Moreira,50,2025-11-08,Guarulhos,PR,Alimentos,Café em grãos,4,1152.48,0.10,5.60,Cartão de crédito,Em transporte,Marketplace,Windows,,
+PED00052,Isabela Ferreira,66,2026-08-13,Jundiaí,SP,Livros,Livro técnico,1,295.79,0.20,37.62,Cartão de débito,Em transporte,Marketplace,Windows,FRETEGRATIS,1
+PED00053,Felipe Rocha,72,2026-02-23,São José dos Campos,PR,Vestuário,Tênis casual,2,1020.13,0.00,21.15,Boleto,Entregue,Marketplace,Outro,BEMVINDO10,5
+PED00054,Thiago Moreira,18,2026-02-18,Guarulhos,PR,Esportes,Garrafa térmica,1,324.84,0.00,43.66,Pix,Cancelado,Loja física,Outro,BLACK25,5
+PED00055,Ana Souza,25,2025-10-22,Jundiaí,RJ,Alimentos,Chá,2,76.37,0.05,24.71,Boleto,Entregue,Site,Outro,BLACK25,5
+PED00056,João Ribeiro,63,2025-05-01,Osasco,MG,Eletrônicos,Monitor 24 pol.,1,1053.74,0.00,20.77,Cartão de débito,Em transporte,Marketplace,iOS,BLACK25,3
+PED00057,Otávio Santos,68,2025-05-20,São José dos Campos,SC,Vestuário,Calça jeans,1,248.38,0.15,22.87,Cartão de crédito,Cancelado,Loja física,Windows,,4
+PED00058,Natália Barros,52,2026-05-11,Guarulhos,MG,Vestuário,Jaqueta,6,618.43,0.00,20.09,Pix,Entregue,Marketplace,iOS,BLACK25,5
+PED00059,Valentina Dias,50,2025-06-05,São José dos Campos,SP,Eletrônicos,Monitor 24 pol.,1,597.81,0.25,17.16,Cartão de crédito,Entregue,Marketplace,Android,FRETEGRATIS,1
+PED00060,Carla Mendes,59,2025-09-29,São José dos Campos,SC,Esportes,Mochila esportiva,4,1212.82,0.00,21.13,Boleto,Entregue,Marketplace,Outro,BEMVINDO10,5
+PED00061,Diego Alves,58,2025-04-03,Guarulhos,RJ,Vestuário,Calça jeans,1,793.56,0.05,44.88,Cartão de crédito,Entregue,Site,Windows,BEMVINDO10,2
+PED00062,Carla Mendes,29,2026-08-03,Jundiaí,PR,Livros,Livro de história,2,545.47,0.00,23.90,Pix,Em transporte,Marketplace,Outro,FRETEGRATIS,3
+PED00063,Carla Mendes,28,2026-04-22,Guarulhos,MG,Casa,Toalha de banho,2,326.80,0.05,30.01,Boleto,Cancelado,Marketplace,Windows,BLACK25,5
+PED00064,João Ribeiro,62,2026-01-26,São Paulo,PR,Livros,Caderno,1,488.56,0.10,4.80,Cartão de crédito,Em transporte,Site,Outro,BLACK25,5
+PED00065,Eduarda Costa,64,2025-07-14,Campinas,SP,Livros,Caderno,3,297.27,0.25,15.85,Cartão de débito,Em transporte,Site,Outro,CLIENTE15,5
+PED00066,Mateus Carvalho,74,2025-06-29,Osasco,SC,Alimentos,Chocolate,1,1138.16,0.05,33.64,Pix,Entregue,Loja física,macOS,CLIENTE15,5
+PED00067,Natália Barros,61,2025-05-25,Osasco,MG,Alimentos,Café em grãos,4,1007.74,0.10,43.33,Cartão de débito,Processando,Site,Windows,,3
+PED00068,Henrique Silva,24,2026-01-26,Guarulhos,SP,Eletrônicos,Carregador USB-C,2,845.13,0.20,11.80,Boleto,Processando,Aplicativo,Android,BLACK25,
+PED00069,Henrique Silva,24,2025-02-08,Osasco,RJ,Alimentos,Granola,1,517.77,0.00,2.04,Cartão de débito,Entregue,Loja física,Outro,BLACK25,4
+PED00070,Bruno Lima,35,2026-05-17,São José dos Campos,RJ,Vestuário,Tênis casual,3,203.72,0.10,29.47,Cartão de débito,Em transporte,Aplicativo,Windows,BEMVINDO10,
+PED00071,Paula Nunes,72,2026-02-12,Campinas,RJ,Alimentos,Azeite,2,1128.35,0.20,16.14,Cartão de crédito,Entregue,Site,Windows,FRETEGRATIS,
+PED00072,Larissa Gomes,32,2025-08-01,Santos,SC,Casa,Cafeteira,3,266.44,0.25,34.43,Boleto,Em transporte,Aplicativo,iOS,,5
+PED00073,Larissa Gomes,55,2025-01-16,São Paulo,RJ,Livros,Caderno,4,148.53,0.25,1.16,Cartão de crédito,Entregue,Aplicativo,macOS,,5
+PED00074,Bruno Lima,57,2026-08-31,Osasco,MG,Eletrônicos,Monitor 24 pol.,3,601.85,0.25,16.29,Cartão de crédito,Entregue,Site,macOS,BLACK25,4
+PED00075,Isabela Ferreira,26,2025-03-24,Jundiaí,SC,Esportes,Halteres,3,619.21,0.10,3.31,Boleto,Entregue,Marketplace,Outro,,3
+PED00076,Thiago Moreira,67,2025-04-28,Sorocaba,PR,Livros,Agenda,2,761.72,0.00,35.69,Pix,Cancelado,Marketplace,Windows,BLACK25,5
+PED00077,Carla Mendes,48,2025-09-19,Campinas,SP,Esportes,Garrafa térmica,2,130.17,0.10,14.06,Cartão de débito,Entregue,Site,Windows,FRETEGRATIS,3
+PED00078,Otávio Santos,66,2025-05-06,São Paulo,MG,Vestuário,Meias,1,1196.32,0.15,14.83,Boleto,Entregue,Loja física,Android,,5
+PED00079,Isabela Ferreira,66,2025-12-25,Jundiaí,RJ,Vestuário,Tênis casual,1,825.21,0.00,38.13,Cartão de crédito,Processando,Loja física,Android,FRETEGRATIS,4
+PED00080,Carla Mendes,43,2025-07-05,Santos,SP,Livros,Livro de ficção,3,394.87,0.05,15.80,Pix,Cancelado,Marketplace,macOS,BLACK25,5
+PED00081,Felipe Rocha,27,2026-08-05,Jundiaí,SP,Livros,Livro de ficção,1,398.15,0.05,34.96,Boleto,Em transporte,Marketplace,macOS,BLACK25,5
+PED00082,Valentina Dias,61,2025-12-20,Guarulhos,SC,Vestuário,Calça jeans,2,350.54,0.25,23.06,Cartão de crédito,Entregue,Aplicativo,macOS,,4
+PED00083,Otávio Santos,49,2025-09-19,Santos,RJ,Eletrônicos,Monitor 24 pol.,1,385.51,0.00,34.53,Pix,Entregue,Loja física,Android,BLACK25,3
+PED00084,Otávio Santos,58,2026-08-13,Ribeirão Preto,SP,Alimentos,Granola,1,35.69,0.00,38.79,Cartão de crédito,Entregue,Loja física,iOS,,4
+PED00085,Carla Mendes,51,2025-04-19,São Bernardo do Campo,MG,Esportes,Bola de futebol,4,1150.72,0.00,19.65,Pix,Entregue,Loja física,iOS,BEMVINDO10,5
+PED00086,Eduarda Costa,59,2025-12-24,Sorocaba,SP,Vestuário,Jaqueta,3,669.12,0.00,40.77,Boleto,Entregue,Aplicativo,iOS,,
+PED00087,Paula Nunes,55,2026-05-21,Jundiaí,SC,Casa,Jogo de panelas,3,823.69,0.00,42.81,Boleto,Entregue,Aplicativo,macOS,BEMVINDO10,5
+PED00088,Bruno Lima,46,2025-12-27,São Paulo,MG,Esportes,Bola de futebol,2,387.24,0.05,26.61,Cartão de crédito,Entregue,Site,Outro,,4
+PED00089,Gabriela Martins,59,2025-02-12,São José dos Campos,SC,Vestuário,Tênis casual,2,730.66,0.25,33.25,Pix,Entregue,Site,macOS,BEMVINDO10,5
+PED00090,Sofia Oliveira,51,2025-09-11,Jundiaí,RJ,Livros,Caderno,6,116.86,0.20,7.77,Boleto,Em transporte,Loja física,macOS,BLACK25,
+PED00091,João Ribeiro,42,2025-03-09,Ribeirão Preto,SC,Livros,Livro técnico,3,77.30,0.20,29.13,Boleto,Entregue,Site,Outro,FRETEGRATIS,5
+PED00092,Natália Barros,53,2026-09-02,São José dos Campos,RJ,Livros,Livro de história,1,824.37,0.20,17.64,Cartão de crédito,Em transporte,Marketplace,Outro,CLIENTE15,2
+PED00093,Carla Mendes,27,2026-05-13,Ribeirão Preto,SP,Eletrônicos,Carregador USB-C,2,235.58,0.00,15.38,Cartão de crédito,Entregue,Loja física,Outro,FRETEGRATIS,
+PED00094,Henrique Silva,41,2025-06-19,Guarulhos,SC,Vestuário,Calça jeans,2,213.28,0.25,31.18,Cartão de débito,Em transporte,Aplicativo,Outro,FRETEGRATIS,2
+PED00095,Natália Barros,36,2026-08-08,Osasco,SC,Livros,Agenda,6,983.16,0.25,8.73,Pix,Devolvido,Aplicativo,Outro,FRETEGRATIS,4
+PED00096,João Ribeiro,25,2025-04-16,Campinas,RJ,Livros,Caderno,1,607.23,0.05,24.95,Cartão de débito,Em transporte,Aplicativo,macOS,BEMVINDO10,4
+PED00097,Mateus Carvalho,23,2026-02-10,Sorocaba,SP,Casa,Jogo de panelas,4,1107.23,0.00,18.67,Cartão de crédito,Entregue,Loja física,iOS,FRETEGRATIS,3
+PED00098,Ana Souza,23,2026-04-26,Ribeirão Preto,RJ,Eletrônicos,Mouse sem fio,1,1039.33,0.20,37.40,Cartão de débito,Entregue,Site,Windows,FRETEGRATIS,1
+PED00099,William Cardoso,49,2026-04-14,Osasco,SP,Livros,Livro de história,1,307.57,0.20,35.73,Pix,Entregue,Aplicativo,Windows,BLACK25,5
+PED00100,Thiago Moreira,51,2025-03-29,Osasco,SC,Eletrônicos,Carregador USB-C,2,310.20,0.10,8.43,Cartão de crédito,Entregue,Marketplace,macOS,BEMVINDO10,4
+PED00101,Diego Alves,58,2025-03-11,Jundiaí,MG,Alimentos,Chá,2,474.46,0.20,0.73,Cartão de crédito,Entregue,Loja física,Outro,CLIENTE15,5
+PED00102,Paula Nunes,22,2026-05-06,São Paulo,MG,Alimentos,Chá,1,976.69,0.10,44.14,Cartão de crédito,Em transporte,Aplicativo,Android,CLIENTE15,5
+PED00103,Bruno Lima,40,2025-02-07,São José dos Campos,MG,Livros,Livro de ficção,2,1236.54,0.15,21.30,Boleto,Processando,Marketplace,macOS,BLACK25,3
+PED00104,Carla Mendes,45,2026-06-16,São Bernardo do Campo,SC,Esportes,Tapete de yoga,1,243.69,0.20,22.39,Boleto,Entregue,Loja física,Android,BEMVINDO10,2
+PED00105,Mateus Carvalho,20,2025-06-20,Jundiaí,PR,Livros,Caderno,3,391.79,0.15,32.29,Cartão de crédito,Em transporte,Site,macOS,CLIENTE15,4
+PED00106,Mateus Carvalho,67,2026-03-25,São José dos Campos,PR,Vestuário,Meias,4,853.27,0.00,6.43,Cartão de crédito,Entregue,Aplicativo,macOS,CLIENTE15,2
+PED00107,Ana Souza,25,2026-02-12,Santos,PR,Livros,Livro de história,2,107.65,0.00,23.83,Cartão de débito,Entregue,Site,Windows,CLIENTE15,4
+PED00108,Paula Nunes,22,2026-05-18,Santos,PR,Alimentos,Café em grãos,2,1245.50,0.05,31.23,Boleto,Entregue,Loja física,Android,,3
+PED00109,Gabriela Martins,25,2025-06-28,Santos,RJ,Vestuário,Tênis casual,1,383.70,0.00,32.03,Cartão de crédito,Processando,Loja física,Outro,,4
+PED00110,Rafael Teixeira,63,2025-03-30,Osasco,PR,Livros,Agenda,2,1228.98,0.00,27.54,Cartão de crédito,Entregue,Aplicativo,Windows,BEMVINDO10,4
+PED00111,Otávio Santos,26,2026-07-19,Osasco,SP,Esportes,Garrafa térmica,2,652.73,0.00,39.51,Pix,Em transporte,Loja física,iOS,FRETEGRATIS,3
+PED00112,Isabela Ferreira,53,2025-03-22,Santos,MG,Livros,Livro de história,5,291.52,0.15,40.27,Cartão de crédito,Entregue,Aplicativo,Outro,,5
+PED00113,Bruno Lima,23,2026-08-01,Jundiaí,MG,Casa,Luminária,1,785.29,0.15,15.19,Cartão de débito,Entregue,Site,macOS,,5
+PED00114,Felipe Rocha,21,2026-02-20,Guarulhos,PR,Livros,Agenda,3,386.34,0.00,36.21,Cartão de débito,Entregue,Aplicativo,Windows,,2
+PED00115,Sofia Oliveira,41,2025-12-20,Osasco,SP,Casa,Jogo de panelas,1,901.47,0.20,44.46,Pix,Devolvido,Marketplace,Android,CLIENTE15,3
+PED00116,Larissa Gomes,28,2026-03-05,Jundiaí,MG,Esportes,Tapete de yoga,1,132.30,0.05,42.54,Pix,Entregue,Marketplace,Outro,BLACK25,5
+PED00117,Mateus Carvalho,55,2026-06-02,São Paulo,SP,Esportes,Bola de futebol,4,628.00,0.00,42.54,Cartão de débito,Entregue,Marketplace,Windows,,4
+PED00118,Thiago Moreira,54,2026-02-17,Sorocaba,MG,Eletrônicos,Carregador USB-C,4,545.77,0.05,32.74,Boleto,Entregue,Site,macOS,,4
+PED00119,Larissa Gomes,41,2025-05-02,Osasco,MG,Esportes,Tapete de yoga,3,358.65,0.15,30.62,Pix,Entregue,Marketplace,Outro,BEMVINDO10,2
+PED00120,Larissa Gomes,26,2026-04-13,Jundiaí,MG,Eletrônicos,Mouse sem fio,1,895.57,0.25,21.32,Cartão de débito,Entregue,Loja física,Outro,CLIENTE15,5
+PED00121,Diego Alves,61,2026-05-02,São Bernardo do Campo,SC,Vestuário,Calça jeans,4,671.27,0.20,25.33,Cartão de crédito,Processando,Marketplace,Windows,,4
+PED00122,Valentina Dias,20,2026-01-25,Campinas,RJ,Vestuário,Camiseta,1,76.05,0.10,7.67,Cartão de débito,Entregue,Loja física,macOS,FRETEGRATIS,5
+PED00123,Eduarda Costa,21,2026-04-28,Osasco,RJ,Esportes,Halteres,3,520.34,0.25,27.52,Boleto,Cancelado,Marketplace,Outro,BLACK25,5
+PED00124,Isabela Ferreira,61,2025-12-29,Jundiaí,PR,Livros,Livro técnico,5,581.33,0.15,15.40,Pix,Em transporte,Loja física,Outro,CLIENTE15,5
+PED00125,Mateus Carvalho,48,2025-08-01,Osasco,MG,Casa,Jogo de panelas,5,1228.05,0.25,13.01,Cartão de crédito,Em transporte,Marketplace,macOS,CLIENTE15,4
+PED00126,Gabriela Martins,31,2026-03-29,Osasco,MG,Casa,Toalha de banho,1,368.44,0.20,3.56,Boleto,Em transporte,Aplicativo,Android,,5
+PED00127,Larissa Gomes,44,2025-08-20,Guarulhos,SP,Alimentos,Chá,2,312.54,0.20,40.73,Cartão de crédito,Em transporte,Aplicativo,macOS,BLACK25,2
+PED00128,Henrique Silva,54,2025-03-02,Osasco,SP,Esportes,Tapete de yoga,3,947.94,0.05,14.45,Cartão de débito,Cancelado,Aplicativo,Android,BLACK25,2
+PED00129,Larissa Gomes,24,2025-02-08,Ribeirão Preto,PR,Esportes,Halteres,1,939.39,0.25,41.67,Cartão de débito,Entregue,Aplicativo,Outro,BLACK25,5
+PED00130,João Ribeiro,39,2025-09-21,Jundiaí,RJ,Livros,Livro técnico,1,151.90,0.00,32.90,Cartão de débito,Em transporte,Marketplace,Outro,CLIENTE15,1
+PED00131,Isabela Ferreira,46,2025-09-12,São José dos Campos,MG,Eletrônicos,Carregador USB-C,2,130.54,0.00,21.49,Cartão de crédito,Entregue,Loja física,Windows,FRETEGRATIS,4
+PED00132,João Ribeiro,67,2026-05-30,Campinas,MG,Eletrônicos,Teclado mecânico,3,588.43,0.00,18.24,Pix,Cancelado,Aplicativo,iOS,BLACK25,5
+PED00133,Gabriela Martins,69,2026-07-17,Sorocaba,SC,Casa,Cafeteira,2,1236.19,0.05,18.71,Cartão de débito,Cancelado,Loja física,Android,,5
+PED00134,Paula Nunes,51,2026-07-04,Campinas,RJ,Eletrônicos,Carregador USB-C,1,690.22,0.15,9.10,Cartão de débito,Entregue,Site,Outro,BLACK25,4
+PED00135,Ana Souza,64,2026-07-27,São Bernardo do Campo,MG,Eletrônicos,Fone Bluetooth,2,647.64,0.10,25.38,Pix,Entregue,Site,Android,BLACK25,5
+PED00136,Otávio Santos,36,2025-03-12,Santos,RJ,Livros,Agenda,3,682.19,0.00,42.06,Boleto,Devolvido,Marketplace,macOS,BLACK25,4
+PED00137,Sofia Oliveira,43,2025-12-23,Santos,RJ,Esportes,Garrafa térmica,1,1205.63,0.25,24.27,Cartão de crédito,Entregue,Loja física,macOS,,
+PED00138,Diego Alves,64,2025-06-08,São Paulo,PR,Esportes,Halteres,2,1031.41,0.00,20.73,Cartão de crédito,Entregue,Aplicativo,iOS,BEMVINDO10,
+PED00139,Henrique Silva,46,2025-02-19,Osasco,RJ,Eletrônicos,Fone Bluetooth,2,564.97,0.20,31.65,Pix,Entregue,Loja física,iOS,,2
+PED00140,Henrique Silva,51,2025-11-06,São Bernardo do Campo,MG,Livros,Caderno,2,968.52,0.25,14.43,Cartão de crédito,Cancelado,Aplicativo,macOS,,
+PED00141,João Ribeiro,27,2026-06-22,São Bernardo do Campo,RJ,Esportes,Halteres,1,438.71,0.20,30.21,Cartão de débito,Entregue,Aplicativo,iOS,CLIENTE15,4
+PED00142,Isabela Ferreira,33,2026-03-03,Sorocaba,MG,Alimentos,Café em grãos,1,585.49,0.00,25.31,Cartão de débito,Em transporte,Loja física,Android,,3
+PED00143,Valentina Dias,69,2026-09-10,Osasco,RJ,Alimentos,Granola,4,76.28,0.10,30.32,Pix,Entregue,Loja física,Windows,BEMVINDO10,2
+PED00144,Gabriela Martins,63,2026-05-06,São Bernardo do Campo,RJ,Casa,Toalha de banho,5,1203.07,0.00,33.61,Boleto,Cancelado,Loja física,macOS,BLACK25,5
+PED00145,Rafael Teixeira,64,2026-05-25,São José dos Campos,RJ,Vestuário,Calça jeans,3,394.17,0.05,23.08,Boleto,Entregue,Marketplace,Android,,5
+PED00146,Larissa Gomes,30,2026-08-17,Sorocaba,PR,Casa,Toalha de banho,3,32.57,0.15,42.06,Pix,Em transporte,Marketplace,Outro,CLIENTE15,4
+PED00147,Felipe Rocha,40,2026-05-18,Santos,SC,Livros,Agenda,3,617.17,0.20,28.88,Pix,Entregue,Site,Outro,BEMVINDO10,5
+PED00148,Eduarda Costa,63,2025-05-21,São Paulo,RJ,Eletrônicos,Carregador USB-C,5,839.42,0.25,0.29,Cartão de débito,Processando,Loja física,Android,,3
+PED00149,Ana Souza,18,2025-01-17,Osasco,MG,Alimentos,Azeite,3,775.44,0.10,29.67,Boleto,Entregue,Site,Outro,BLACK25,5
+PED00150,Natália Barros,68,2026-06-24,Campinas,MG,Casa,Organizador,1,131.69,0.00,10.84,Cartão de débito,Entregue,Aplicativo,iOS,CLIENTE15,4
+PED00151,Rafael Teixeira,53,2025-02-02,São Paulo,SP,Alimentos,Chá,4,112.26,0.25,29.25,Cartão de crédito,Entregue,Marketplace,macOS,CLIENTE15,4
+PED00152,Valentina Dias,74,2025-08-24,Guarulhos,MG,Vestuário,Camiseta,6,1217.63,0.15,41.36,Cartão de crédito,Entregue,Loja física,Outro,,5
+PED00153,Natália Barros,63,2025-08-01,Campinas,MG,Alimentos,Chá,1,1161.85,0.05,0.70,Pix,Em transporte,Marketplace,Outro,CLIENTE15,5
+PED00154,Otávio Santos,24,2026-05-28,Sorocaba,SP,Esportes,Bola de futebol,3,185.69,0.20,32.59,Cartão de débito,Processando,Loja física,Android,CLIENTE15,4
+PED00155,João Ribeiro,57,2026-08-23,Sorocaba,SP,Esportes,Garrafa térmica,2,452.82,0.10,19.43,Boleto,Em transporte,Aplicativo,macOS,FRETEGRATIS,2
+PED00156,Eduarda Costa,24,2025-11-12,Campinas,RJ,Alimentos,Granola,2,458.87,0.00,0.23,Cartão de débito,Entregue,Marketplace,Android,BEMVINDO10,5
+PED00157,Carla Mendes,67,2026-01-30,Osasco,RJ,Eletrônicos,Carregador USB-C,2,127.67,0.15,35.30,Pix,Entregue,Marketplace,iOS,FRETEGRATIS,4
+PED00158,Mateus Carvalho,22,2025-10-10,Ribeirão Preto,RJ,Livros,Agenda,1,622.74,0.00,7.52,Pix,Entregue,Marketplace,Android,FRETEGRATIS,4
+PED00159,William Cardoso,70,2025-12-04,Santos,MG,Livros,Caderno,1,502.17,0.25,27.91,Pix,Entregue,Marketplace,Windows,FRETEGRATIS,4
+PED00160,Natália Barros,35,2026-08-13,São José dos Campos,SP,Esportes,Halteres,6,373.17,0.20,28.48,Pix,Processando,Aplicativo,Outro,BEMVINDO10,4
+PED00161,Rafael Teixeira,44,2025-03-12,Santos,MG,Alimentos,Chá,2,889.10,0.10,35.90,Boleto,Processando,Aplicativo,macOS,BLACK25,5
+PED00162,Thiago Moreira,44,2026-06-03,São Paulo,MG,Eletrônicos,Carregador USB-C,2,752.44,0.15,18.04,Cartão de crédito,Cancelado,Site,iOS,CLIENTE15,5
+PED00163,Otávio Santos,68,2026-02-14,Campinas,SP,Casa,Cafeteira,3,67.32,0.20,30.49,Boleto,Devolvido,Aplicativo,Outro,,4
+PED00164,Eduarda Costa,50,2026-04-20,São José dos Campos,SP,Vestuário,Tênis casual,2,724.35,0.10,16.84,Cartão de crédito,Processando,Loja física,macOS,BEMVINDO10,5
+PED00165,Rafael Teixeira,40,2026-04-12,Campinas,PR,Eletrônicos,Monitor 24 pol.,4,916.06,0.05,14.04,Boleto,Processando,Site,Windows,BEMVINDO10,4
+PED00166,Felipe Rocha,51,2025-06-18,Osasco,RJ,Alimentos,Chocolate,1,1063.36,0.20,4.92,Cartão de débito,Cancelado,Marketplace,iOS,BLACK25,5
+PED00167,Gabriela Martins,18,2025-07-22,Sorocaba,MG,Alimentos,Café em grãos,1,805.09,0.10,17.80,Cartão de crédito,Entregue,Aplicativo,Windows,CLIENTE15,4
+PED00168,Diego Alves,55,2025-11-17,São José dos Campos,MG,Casa,Organizador,2,337.16,0.25,22.03,Pix,Em transporte,Loja física,Outro,,5
+PED00169,Otávio Santos,42,2025-07-07,Jundiaí,RJ,Eletrônicos,Carregador USB-C,3,400.07,0.00,13.74,Cartão de débito,Entregue,Marketplace,iOS,BLACK25,3
+PED00170,Paula Nunes,71,2026-05-17,Jundiaí,SP,Alimentos,Chocolate,2,1149.96,0.00,24.97,Cartão de crédito,Entregue,Marketplace,iOS,FRETEGRATIS,3
+PED00171,Felipe Rocha,49,2026-05-19,Campinas,SC,Esportes,Garrafa térmica,6,637.98,0.10,18.41,Pix,Entregue,Loja física,Android,CLIENTE15,5
+PED00172,Isabela Ferreira,25,2026-05-23,Osasco,MG,Casa,Toalha de banho,2,220.66,0.10,25.45,Cartão de crédito,Entregue,Marketplace,Outro,FRETEGRATIS,3
+PED00173,Carla Mendes,70,2025-02-03,Guarulhos,SP,Esportes,Tapete de yoga,1,1039.71,0.25,11.14,Pix,Entregue,Loja física,Outro,BLACK25,4
+PED00174,Thiago Moreira,56,2025-03-02,Santos,MG,Casa,Jogo de panelas,2,983.75,0.25,9.31,Boleto,Em transporte,Loja física,Outro,BEMVINDO10,4
+PED00175,Larissa Gomes,27,2025-05-10,Sorocaba,PR,Casa,Organizador,6,984.79,0.00,44.66,Pix,Em transporte,Loja física,macOS,BLACK25,3
+PED00176,Mateus Carvalho,74,2026-06-12,Guarulhos,PR,Esportes,Bola de futebol,1,995.82,0.25,4.19,Cartão de crédito,Processando,Site,macOS,CLIENTE15,5
+PED00177,Thiago Moreira,39,2026-05-22,Jundiaí,RJ,Eletrônicos,Carregador USB-C,4,504.67,0.10,37.12,Cartão de débito,Entregue,Loja física,Android,BEMVINDO10,5
+PED00178,Gabriela Martins,45,2025-06-11,Santos,MG,Eletrônicos,Mouse sem fio,2,1047.92,0.00,5.59,Boleto,Entregue,Site,Windows,CLIENTE15,1
+PED00179,Carla Mendes,45,2025-11-09,Campinas,SP,Eletrônicos,Mouse sem fio,2,1130.95,0.00,2.33,Cartão de débito,Em transporte,Site,iOS,,5
+PED00180,Rafael Teixeira,26,2025-05-04,Campinas,RJ,Casa,Organizador,2,563.27,0.00,31.30,Cartão de crédito,Devolvido,Site,Android,CLIENTE15,4
+PED00181,Sofia Oliveira,22,2025-05-17,Jundiaí,SP,Livros,Livro de história,4,182.20,0.25,36.60,Pix,Em transporte,Marketplace,Windows,FRETEGRATIS,5
+PED00182,Diego Alves,66,2025-08-11,Jundiaí,PR,Alimentos,Chocolate,3,1150.87,0.15,30.90,Cartão de débito,Entregue,Loja física,iOS,FRETEGRATIS,3
+PED00183,João Ribeiro,72,2025-10-19,Sorocaba,SC,Livros,Livro de história,3,319.61,0.15,27.00,Pix,Processando,Marketplace,Windows,BEMVINDO10,5
+PED00184,Larissa Gomes,41,2025-03-14,Santos,PR,Casa,Toalha de banho,2,152.02,0.10,28.71,Cartão de débito,Entregue,Loja física,Outro,FRETEGRATIS,
+PED00185,Natália Barros,21,2025-01-15,Osasco,MG,Esportes,Halteres,5,965.83,0.00,26.43,Cartão de débito,Entregue,Marketplace,macOS,BEMVINDO10,1
+PED00186,Eduarda Costa,69,2025-03-22,Osasco,MG,Alimentos,Granola,2,774.86,0.05,3.76,Cartão de crédito,Entregue,Loja física,macOS,FRETEGRATIS,3
+PED00187,Felipe Rocha,65,2025-02-26,Campinas,SP,Eletrônicos,Mouse sem fio,1,1156.73,0.00,20.40,Cartão de crédito,Entregue,Aplicativo,macOS,CLIENTE15,5
+PED00188,Diego Alves,64,2025-05-10,São Paulo,MG,Vestuário,Tênis casual,2,1030.35,0.05,7.51,Boleto,Processando,Site,Windows,,5
+PED00189,Diego Alves,67,2026-08-04,Jundiaí,SP,Alimentos,Chá,1,575.81,0.05,2.49,Cartão de crédito,Entregue,Site,Android,FRETEGRATIS,3
+PED00190,Otávio Santos,65,2025-02-06,Sorocaba,MG,Eletrônicos,Mouse sem fio,2,486.44,0.00,8.05,Cartão de débito,Em transporte,Loja física,Windows,BEMVINDO10,
+PED00191,Paula Nunes,22,2026-06-13,Ribeirão Preto,MG,Vestuário,Calça jeans,2,633.78,0.00,8.07,Cartão de crédito,Devolvido,Marketplace,Android,CLIENTE15,
+PED00192,Gabriela Martins,67,2026-04-21,Osasco,RJ,Casa,Luminária,1,983.33,0.20,28.02,Cartão de crédito,Entregue,Marketplace,Android,FRETEGRATIS,
+PED00193,João Ribeiro,65,2025-01-02,Campinas,RJ,Vestuário,Meias,1,1051.47,0.00,42.79,Pix,Processando,Marketplace,macOS,BEMVINDO10,4
+PED00194,Carla Mendes,47,2026-06-17,Jundiaí,SP,Casa,Toalha de banho,3,127.62,0.00,40.38,Pix,Entregue,Marketplace,Android,,5
+PED00195,Larissa Gomes,43,2025-09-25,São José dos Campos,PR,Vestuário,Calça jeans,1,832.27,0.00,10.65,Pix,Cancelado,Site,iOS,FRETEGRATIS,
+PED00196,Gabriela Martins,67,2026-02-21,Guarulhos,MG,Vestuário,Tênis casual,1,143.25,0.10,20.97,Boleto,Entregue,Site,Android,FRETEGRATIS,4
+PED00197,Natália Barros,40,2025-12-02,Osasco,SP,Alimentos,Chocolate,1,884.57,0.15,1.81,Boleto,Entregue,Aplicativo,Android,BLACK25,5
+PED00198,Henrique Silva,67,2025-05-24,Santos,RJ,Esportes,Mochila esportiva,2,693.27,0.00,20.79,Boleto,Entregue,Site,Outro,,2
+PED00199,Larissa Gomes,72,2026-03-31,Campinas,SP,Livros,Agenda,5,105.30,0.00,8.90,Cartão de crédito,Processando,Aplicativo,Outro,BLACK25,2
+PED00200,Paula Nunes,35,2025-12-29,Santos,SP,Alimentos,Azeite,2,48.98,0.20,19.20,Pix,Entregue,Loja física,macOS,BLACK25,3
+PED00201,Thiago Moreira,33,2025-07-24,São Paulo,PR,Vestuário,Calça jeans,2,121.06,0.10,6.18,Cartão de débito,Em transporte,Marketplace,Windows,,5
+PED00202,Bruno Lima,35,2025-08-13,Guarulhos,SC,Vestuário,Calça jeans,1,347.16,0.00,14.35,Pix,Entregue,Aplicativo,Android,FRETEGRATIS,5
+PED00203,Natália Barros,54,2025-02-27,São José dos Campos,RJ,Alimentos,Chá,1,672.94,0.25,41.28,Pix,Processando,Loja física,Windows,,
+PED00204,Rafael Teixeira,69,2026-07-31,Osasco,MG,Eletrônicos,Mouse sem fio,3,447.71,0.15,25.36,Cartão de débito,Cancelado,Site,Android,BEMVINDO10,5
+PED00205,Larissa Gomes,29,2025-07-26,São Paulo,SP,Casa,Luminária,2,37.16,0.10,0.03,Pix,Processando,Site,Outro,CLIENTE15,4
+PED00206,Otávio Santos,28,2025-12-11,Guarulhos,MG,Eletrônicos,Mouse sem fio,2,1178.13,0.10,26.37,Boleto,Entregue,Aplicativo,Outro,FRETEGRATIS,3
+PED00207,Valentina Dias,43,2025-01-02,São Paulo,RJ,Esportes,Halteres,1,864.52,0.00,8.00,Boleto,Cancelado,Aplicativo,Outro,BEMVINDO10,
+PED00208,Larissa Gomes,23,2025-11-24,Guarulhos,SP,Esportes,Bola de futebol,1,934.86,0.00,15.61,Pix,Entregue,Aplicativo,Android,CLIENTE15,5
+PED00209,Natália Barros,49,2026-03-06,São José dos Campos,SC,Livros,Agenda,3,904.01,0.00,17.37,Cartão de crédito,Devolvido,Marketplace,Outro,FRETEGRATIS,5
+PED00210,Felipe Rocha,39,2025-11-23,São Bernardo do Campo,RJ,Casa,Cafeteira,2,1001.50,0.00,13.27,Cartão de crédito,Entregue,Loja física,Outro,,3
+PED00211,Gabriela Martins,31,2026-03-21,São Bernardo do Campo,SC,Esportes,Halteres,3,546.26,0.20,7.42,Boleto,Entregue,Loja física,Windows,FRETEGRATIS,3
+PED00212,William Cardoso,36,2025-02-25,Guarulhos,RJ,Eletrônicos,Fone Bluetooth,1,720.07,0.25,22.09,Cartão de crédito,Entregue,Aplicativo,iOS,CLIENTE15,4
+PED00213,Thiago Moreira,59,2026-05-16,São Bernardo do Campo,RJ,Eletrônicos,Teclado mecânico,2,155.44,0.25,17.89,Cartão de débito,Cancelado,Loja física,iOS,BLACK25,4
+PED00214,Diego Alves,60,2026-08-01,Campinas,MG,Eletrônicos,Carregador USB-C,1,588.01,0.00,37.67,Cartão de débito,Entregue,Aplicativo,Outro,BEMVINDO10,5
+PED00215,Carla Mendes,37,2026-05-02,São Bernardo do Campo,SP,Esportes,Halteres,4,530.56,0.15,30.92,Pix,Em transporte,Site,macOS,FRETEGRATIS,3
+PED00216,Eduarda Costa,70,2025-03-22,Jundiaí,MG,Casa,Jogo de panelas,6,1012.97,0.00,1.92,Cartão de crédito,Devolvido,Site,macOS,,4
+PED00217,Otávio Santos,51,2025-01-13,Campinas,PR,Esportes,Tapete de yoga,2,1072.57,0.15,20.62,Pix,Processando,Site,Android,,5
+PED00218,Rafael Teixeira,56,2025-09-28,São Paulo,RJ,Eletrônicos,Teclado mecânico,3,1086.00,0.05,39.51,Cartão de débito,Entregue,Aplicativo,Outro,,4
+PED00219,Mateus Carvalho,75,2025-02-20,São Paulo,MG,Alimentos,Chocolate,3,60.49,0.05,31.07,Boleto,Processando,Loja física,macOS,BEMVINDO10,
+PED00220,Carla Mendes,59,2025-11-25,Sorocaba,PR,Casa,Luminária,1,1218.10,0.10,34.83,Cartão de débito,Entregue,Marketplace,Outro,CLIENTE15,4
+PED00221,Valentina Dias,74,2026-02-18,São Paulo,RJ,Eletrônicos,Mouse sem fio,2,209.23,0.05,31.93,Pix,Entregue,Site,iOS,BEMVINDO10,5
+PED00222,Ana Souza,25,2026-04-21,Sorocaba,MG,Esportes,Mochila esportiva,1,458.46,0.00,12.33,Cartão de débito,Entregue,Aplicativo,macOS,,5
+PED00223,Valentina Dias,28,2025-04-03,Sorocaba,RJ,Vestuário,Jaqueta,1,214.85,0.05,33.70,Pix,Entregue,Loja física,macOS,,4
+PED00224,Henrique Silva,18,2025-05-16,Ribeirão Preto,SC,Eletrônicos,Teclado mecânico,4,1209.33,0.20,0.40,Boleto,Em transporte,Marketplace,macOS,CLIENTE15,5
+PED00225,Mateus Carvalho,60,2026-02-11,Osasco,SC,Esportes,Halteres,1,590.04,0.20,23.43,Boleto,Em transporte,Loja física,Android,BLACK25,1
+PED00226,João Ribeiro,59,2025-09-25,Sorocaba,RJ,Eletrônicos,Carregador USB-C,1,354.65,0.05,38.77,Pix,Em transporte,Site,Outro,BLACK25,
+PED00227,Bruno Lima,42,2025-10-30,Jundiaí,SC,Alimentos,Chá,1,185.66,0.00,29.49,Boleto,Entregue,Aplicativo,Outro,BLACK25,4
+PED00228,Isabela Ferreira,26,2026-07-26,Osasco,RJ,Alimentos,Chocolate,2,383.99,0.00,37.83,Cartão de crédito,Entregue,Aplicativo,Windows,FRETEGRATIS,2
+PED00229,Bruno Lima,48,2026-08-23,Jundiaí,SC,Alimentos,Azeite,4,532.83,0.05,16.73,Cartão de crédito,Entregue,Marketplace,iOS,,5
+PED00230,Valentina Dias,44,2025-06-04,Guarulhos,RJ,Eletrônicos,Teclado mecânico,4,484.82,0.05,18.59,Pix,Entregue,Site,macOS,CLIENTE15,3
+PED00231,Felipe Rocha,54,2025-10-08,Guarulhos,SP,Alimentos,Chá,6,400.35,0.00,0.21,Cartão de débito,Entregue,Marketplace,macOS,BLACK25,5
+PED00232,Gabriela Martins,51,2025-01-15,São Paulo,SP,Esportes,Tapete de yoga,2,59.19,0.00,32.88,Pix,Cancelado,Loja física,Windows,FRETEGRATIS,5
+PED00233,Sofia Oliveira,64,2025-02-16,Jundiaí,SC,Eletrônicos,Teclado mecânico,2,740.98,0.00,2.94,Cartão de débito,Entregue,Aplicativo,Windows,BLACK25,4
+PED00234,Ana Souza,31,2025-08-22,Jundiaí,SC,Livros,Livro técnico,3,216.54,0.25,18.15,Cartão de crédito,Entregue,Loja física,Android,BLACK25,
+PED00235,Bruno Lima,19,2025-02-19,Campinas,PR,Alimentos,Granola,1,674.23,0.00,26.73,Cartão de débito,Em transporte,Site,Outro,CLIENTE15,5
+PED00236,Isabela Ferreira,51,2025-11-05,Jundiaí,SC,Esportes,Tapete de yoga,3,266.80,0.20,28.36,Cartão de débito,Entregue,Site,Outro,,3
+PED00237,Mateus Carvalho,30,2025-07-24,São Bernardo do Campo,MG,Eletrônicos,Mouse sem fio,1,983.64,0.10,8.94,Cartão de crédito,Processando,Marketplace,iOS,BLACK25,5
+PED00238,Sofia Oliveira,23,2026-08-11,Campinas,SP,Livros,Caderno,1,28.28,0.00,40.81,Pix,Em transporte,Marketplace,Windows,CLIENTE15,3
+PED00239,Diego Alves,45,2025-10-25,Campinas,SP,Esportes,Garrafa térmica,1,1018.81,0.25,1.78,Pix,Entregue,Aplicativo,Windows,CLIENTE15,5
+PED00240,Isabela Ferreira,47,2025-12-17,São Bernardo do Campo,PR,Esportes,Mochila esportiva,5,344.53,0.20,4.18,Pix,Entregue,Site,iOS,BEMVINDO10,4
+PED00241,William Cardoso,40,2026-03-25,São Paulo,RJ,Casa,Organizador,1,1140.14,0.10,36.10,Cartão de débito,Entregue,Site,macOS,BLACK25,4
+PED00242,Henrique Silva,54,2026-06-22,São José dos Campos,SC,Eletrônicos,Carregador USB-C,1,823.03,0.00,31.71,Cartão de crédito,Processando,Marketplace,iOS,BLACK25,5
+PED00243,Felipe Rocha,18,2026-07-26,Osasco,PR,Livros,Agenda,3,806.24,0.00,37.76,Pix,Cancelado,Site,macOS,CLIENTE15,5
+PED00244,Paula Nunes,47,2026-01-23,Jundiaí,PR,Casa,Cafeteira,1,356.72,0.15,10.02,Cartão de débito,Entregue,Marketplace,Windows,BEMVINDO10,3
+PED00245,William Cardoso,68,2026-07-25,Jundiaí,MG,Esportes,Halteres,3,34.49,0.10,18.56,Pix,Entregue,Marketplace,Windows,CLIENTE15,5
+PED00246,Paula Nunes,63,2026-09-07,Campinas,SP,Eletrônicos,Mouse sem fio,4,1057.34,0.05,25.21,Cartão de crédito,Entregue,Loja física,Windows,CLIENTE15,5
+PED00247,Otávio Santos,64,2026-05-20,Campinas,MG,Vestuário,Meias,2,881.34,0.00,40.36,Pix,Entregue,Aplicativo,Android,BLACK25,5
+PED00248,Valentina Dias,61,2026-03-01,Campinas,PR,Casa,Organizador,2,979.51,0.20,15.21,Pix,Entregue,Marketplace,Android,,5
+PED00249,Valentina Dias,62,2026-06-05,Santos,RJ,Alimentos,Café em grãos,1,1169.94,0.25,26.33,Cartão de débito,Processando,Loja física,Outro,BLACK25,
+PED00250,Eduarda Costa,46,2026-02-12,Santos,PR,Esportes,Halteres,6,1145.94,0.25,11.17,Boleto,Devolvido,Loja física,Outro,FRETEGRATIS,
+PED00251,Sofia Oliveira,29,2025-05-16,Osasco,MG,Casa,Cafeteira,1,896.55,0.20,15.54,Boleto,Devolvido,Marketplace,Outro,,5
+PED00252,Natália Barros,19,2026-03-09,Santos,SP,Alimentos,Café em grãos,3,846.88,0.25,24.03,Pix,Processando,Loja física,iOS,CLIENTE15,4
+PED00253,Paula Nunes,70,2025-07-28,Campinas,SC,Alimentos,Azeite,1,1051.23,0.20,35.30,Pix,Processando,Marketplace,iOS,,1
+PED00254,Isabela Ferreira,65,2025-11-17,Sorocaba,SC,Alimentos,Granola,1,834.81,0.10,17.44,Pix,Devolvido,Loja física,Outro,,2
+PED00255,Sofia Oliveira,29,2025-07-01,Campinas,PR,Alimentos,Café em grãos,2,972.98,0.00,13.24,Cartão de débito,Devolvido,Loja física,Outro,CLIENTE15,2
+PED00256,Bruno Lima,56,2025-06-08,Jundiaí,MG,Casa,Organizador,1,1059.44,0.00,14.88,Boleto,Entregue,Site,Windows,,
+PED00257,Henrique Silva,40,2026-03-02,Sorocaba,MG,Casa,Jogo de panelas,5,656.75,0.25,22.73,Boleto,Entregue,Loja física,iOS,,4
+PED00258,William Cardoso,33,2025-01-10,Jundiaí,RJ,Vestuário,Camiseta,2,707.15,0.25,44.15,Boleto,Entregue,Marketplace,Android,BLACK25,4
+PED00259,Bruno Lima,49,2026-01-19,Ribeirão Preto,RJ,Livros,Caderno,2,362.50,0.15,36.99,Cartão de crédito,Entregue,Site,iOS,,4
+PED00260,Gabriela Martins,24,2025-08-07,Osasco,PR,Vestuário,Camiseta,1,93.52,0.20,28.33,Pix,Cancelado,Site,macOS,CLIENTE15,4
+PED00261,Otávio Santos,34,2025-03-14,São Bernardo do Campo,PR,Eletrônicos,Monitor 24 pol.,1,79.66,0.25,11.34,Cartão de débito,Em transporte,Loja física,Android,BLACK25,3
+PED00262,Sofia Oliveira,40,2026-08-23,Campinas,MG,Alimentos,Chocolate,1,19.80,0.20,27.83,Cartão de crédito,Entregue,Loja física,macOS,BLACK25,5
+PED00263,Thiago Moreira,72,2025-05-20,Ribeirão Preto,RJ,Esportes,Bola de futebol,4,50.64,0.00,24.01,Boleto,Processando,Site,Outro,,5
+PED00264,Mateus Carvalho,65,2026-07-15,Sorocaba,PR,Casa,Toalha de banho,1,18.72,0.15,17.73,Pix,Cancelado,Aplicativo,iOS,FRETEGRATIS,4
+PED00265,Paula Nunes,53,2026-08-04,Osasco,SP,Vestuário,Calça jeans,4,252.98,0.00,30.19,Cartão de crédito,Cancelado,Loja física,Android,FRETEGRATIS,5
+PED00266,Gabriela Martins,75,2025-08-29,São José dos Campos,PR,Alimentos,Granola,2,1190.03,0.05,5.77,Boleto,Entregue,Loja física,Outro,FRETEGRATIS,5
+PED00267,Otávio Santos,65,2025-11-17,Ribeirão Preto,MG,Vestuário,Jaqueta,2,1012.03,0.10,7.59,Boleto,Entregue,Marketplace,macOS,BLACK25,3
+PED00268,Thiago Moreira,26,2025-03-25,Sorocaba,MG,Livros,Livro de ficção,3,615.13,0.00,7.91,Cartão de crédito,Processando,Site,Outro,BEMVINDO10,5
+PED00269,Rafael Teixeira,52,2026-07-19,Santos,MG,Vestuário,Tênis casual,2,964.39,0.00,40.78,Pix,Entregue,Loja física,iOS,BLACK25,5
+PED00270,Felipe Rocha,57,2025-09-02,Osasco,RJ,Vestuário,Tênis casual,2,503.52,0.15,0.48,Pix,Processando,Aplicativo,Outro,,5
+PED00271,Carla Mendes,32,2026-01-03,Ribeirão Preto,MG,Alimentos,Chá,4,193.42,0.20,21.76,Cartão de crédito,Entregue,Aplicativo,Outro,CLIENTE15,5
+PED00272,Isabela Ferreira,58,2025-11-28,Ribeirão Preto,SC,Esportes,Halteres,2,575.12,0.00,1.80,Pix,Entregue,Marketplace,macOS,CLIENTE15,
+PED00273,Mateus Carvalho,73,2025-08-17,Guarulhos,PR,Vestuário,Meias,3,1046.39,0.15,11.32,Cartão de crédito,Entregue,Aplicativo,macOS,FRETEGRATIS,4
+PED00274,Henrique Silva,25,2025-06-11,São Bernardo do Campo,MG,Casa,Cafeteira,1,808.80,0.00,6.76,Cartão de débito,Entregue,Marketplace,macOS,FRETEGRATIS,5
+PED00275,Sofia Oliveira,58,2025-05-11,São Paulo,SC,Vestuário,Jaqueta,1,1043.79,0.00,10.97,Cartão de crédito,Em transporte,Aplicativo,Windows,FRETEGRATIS,3
+PED00276,Rafael Teixeira,56,2025-10-18,Guarulhos,RJ,Vestuário,Jaqueta,5,754.20,0.15,28.69,Cartão de débito,Cancelado,Aplicativo,Outro,FRETEGRATIS,3
+PED00277,Natália Barros,42,2026-04-10,Santos,SP,Vestuário,Camiseta,3,339.84,0.20,30.85,Pix,Em transporte,Marketplace,iOS,,2
+PED00278,Eduarda Costa,48,2026-06-29,Jundiaí,SC,Eletrônicos,Fone Bluetooth,1,1128.24,0.15,1.76,Cartão de débito,Entregue,Marketplace,Windows,BEMVINDO10,3
+PED00279,Valentina Dias,66,2026-01-26,Campinas,PR,Alimentos,Chá,2,296.49,0.25,21.70,Boleto,Entregue,Marketplace,iOS,BEMVINDO10,5
+PED00280,Natália Barros,18,2025-01-08,Sorocaba,MG,Livros,Agenda,2,685.37,0.05,8.51,Boleto,Em transporte,Site,iOS,BLACK25,3
+PED00281,Gabriela Martins,43,2026-01-10,São Bernardo do Campo,SC,Alimentos,Azeite,2,335.86,0.15,19.06,Cartão de débito,Em transporte,Aplicativo,Windows,,
+PED00282,Diego Alves,60,2026-02-12,Sorocaba,PR,Vestuário,Jaqueta,2,1235.78,0.15,15.50,Cartão de crédito,Processando,Aplicativo,Outro,BLACK25,5
+PED00283,Carla Mendes,69,2025-06-14,Santos,PR,Livros,Livro de história,4,772.36,0.20,31.81,Cartão de débito,Entregue,Site,Android,CLIENTE15,5
+PED00284,William Cardoso,63,2026-02-15,São Paulo,RJ,Casa,Organizador,2,766.17,0.20,17.29,Cartão de débito,Em transporte,Site,iOS,,4
+PED00285,Henrique Silva,41,2025-08-26,São Paulo,RJ,Livros,Livro de ficção,1,982.65,0.15,23.21,Boleto,Em transporte,Marketplace,Windows,BLACK25,5
+PED00286,Valentina Dias,53,2025-04-03,São José dos Campos,MG,Esportes,Bola de futebol,2,653.21,0.20,31.66,Pix,Entregue,Aplicativo,macOS,BLACK25,5
+PED00287,Sofia Oliveira,25,2025-03-16,Ribeirão Preto,SC,Vestuário,Meias,1,229.11,0.15,4.79,Boleto,Entregue,Marketplace,macOS,,4
+PED00288,Diego Alves,48,2026-04-17,Ribeirão Preto,SP,Esportes,Mochila esportiva,3,949.87,0.25,20.65,Pix,Cancelado,Aplicativo,Windows,BLACK25,5
+PED00289,Larissa Gomes,70,2025-10-22,Campinas,SC,Livros,Livro técnico,2,24.53,0.25,11.85,Cartão de débito,Entregue,Loja física,Windows,FRETEGRATIS,5
+PED00290,Henrique Silva,65,2025-07-14,Ribeirão Preto,RJ,Vestuário,Jaqueta,1,1184.56,0.20,41.86,Pix,Entregue,Aplicativo,Outro,CLIENTE15,3
+PED00291,Bruno Lima,52,2026-05-20,Guarulhos,MG,Casa,Toalha de banho,3,160.85,0.00,30.41,Boleto,Em transporte,Marketplace,Outro,CLIENTE15,5
+PED00292,Otávio Santos,51,2025-08-16,Guarulhos,SC,Esportes,Garrafa térmica,1,958.27,0.15,12.61,Boleto,Processando,Marketplace,iOS,BLACK25,3
+PED00293,William Cardoso,41,2025-08-04,Ribeirão Preto,RJ,Eletrônicos,Carregador USB-C,3,581.84,0.20,0.38,Boleto,Entregue,Aplicativo,Windows,BLACK25,3
+PED00294,Felipe Rocha,46,2026-01-17,Jundiaí,RJ,Vestuário,Meias,1,240.09,0.10,9.47,Pix,Entregue,Site,Windows,FRETEGRATIS,4
+PED00295,Rafael Teixeira,44,2025-06-03,Santos,SC,Vestuário,Meias,2,483.84,0.00,36.00,Boleto,Entregue,Marketplace,Windows,CLIENTE15,1
+PED00296,Diego Alves,71,2025-03-03,Guarulhos,MG,Vestuário,Calça jeans,4,71.54,0.00,31.07,Boleto,Entregue,Loja física,Outro,,4
+PED00297,Thiago Moreira,59,2026-09-13,Santos,MG,Livros,Caderno,1,522.05,0.05,39.03,Boleto,Entregue,Marketplace,macOS,BEMVINDO10,5
+PED00298,Carla Mendes,43,2025-12-12,Campinas,RJ,Esportes,Bola de futebol,2,586.39,0.00,39.07,Pix,Entregue,Loja física,Windows,CLIENTE15,5
+PED00299,Otávio Santos,46,2026-01-07,Santos,RJ,Alimentos,Café em grãos,1,810.25,0.05,39.95,Pix,Processando,Aplicativo,Windows,BEMVINDO10,4
+PED00300,Sofia Oliveira,43,2026-04-30,Campinas,SP,Casa,Jogo de panelas,1,139.97,0.00,42.16,Pix,Entregue,Site,macOS,CLIENTE15,1
+PED00301,Mateus Carvalho,60,2026-06-24,São José dos Campos,PR,Casa,Organizador,1,364.17,0.20,5.69,Boleto,Processando,Marketplace,iOS,,1
+PED00302,João Ribeiro,52,2026-08-01,São José dos Campos,PR,Casa,Toalha de banho,2,577.47,0.20,28.61,Pix,Entregue,Site,macOS,CLIENTE15,5
+PED00303,Rafael Teixeira,18,2025-05-20,Guarulhos,MG,Livros,Livro de ficção,2,205.20,0.00,0.00,Cartão de débito,Entregue,Loja física,Outro,FRETEGRATIS,4
+PED00304,Natália Barros,42,2025-09-13,Sorocaba,MG,Eletrônicos,Fone Bluetooth,2,245.86,0.15,19.67,Cartão de débito,Entregue,Aplicativo,Outro,,5
+PED00305,Eduarda Costa,29,2025-10-03,Ribeirão Preto,SP,Alimentos,Granola,3,364.79,0.20,23.94,Cartão de débito,Entregue,Loja física,Outro,BLACK25,5
+PED00306,Ana Souza,46,2025-04-15,Sorocaba,SP,Casa,Luminária,1,200.78,0.15,1.00,Cartão de crédito,Entregue,Marketplace,iOS,CLIENTE15,3
+PED00307,Bruno Lima,27,2025-02-02,Ribeirão Preto,PR,Esportes,Garrafa térmica,1,1001.83,0.05,20.87,Cartão de débito,Entregue,Aplicativo,iOS,CLIENTE15,5
+PED00308,Bruno Lima,65,2026-01-30,Sorocaba,PR,Esportes,Garrafa térmica,4,163.43,0.25,32.16,Pix,Processando,Marketplace,macOS,CLIENTE15,4
+PED00309,Gabriela Martins,37,2026-06-18,São José dos Campos,SP,Livros,Livro técnico,1,913.69,0.20,42.18,Cartão de crédito,Entregue,Aplicativo,macOS,CLIENTE15,4
+PED00310,Rafael Teixeira,68,2025-09-06,Jundiaí,RJ,Eletrônicos,Teclado mecânico,1,354.17,0.00,17.81,Cartão de crédito,Entregue,Aplicativo,iOS,BLACK25,2
+PED00311,Diego Alves,52,2025-03-03,Santos,PR,Eletrônicos,Mouse sem fio,3,431.30,0.25,28.13,Boleto,Entregue,Loja física,macOS,FRETEGRATIS,3
+PED00312,Thiago Moreira,36,2025-02-10,Guarulhos,RJ,Eletrônicos,Carregador USB-C,3,455.73,0.00,11.28,Pix,Entregue,Loja física,Windows,BLACK25,4
+PED00313,Isabela Ferreira,70,2025-03-12,Osasco,MG,Livros,Agenda,4,753.37,0.25,24.95,Cartão de crédito,Entregue,Marketplace,iOS,BEMVINDO10,4
+PED00314,Gabriela Martins,42,2025-03-06,Osasco,PR,Vestuário,Meias,4,972.82,0.00,14.43,Pix,Em transporte,Loja física,Windows,BLACK25,4
+PED00315,Rafael Teixeira,24,2025-05-13,Sorocaba,SP,Alimentos,Café em grãos,1,131.62,0.20,3.00,Cartão de débito,Entregue,Marketplace,Outro,,1
+PED00316,Rafael Teixeira,59,2025-03-14,Campinas,PR,Alimentos,Café em grãos,2,73.24,0.00,27.27,Boleto,Entregue,Marketplace,Windows,BEMVINDO10,
+PED00317,Diego Alves,24,2025-03-21,Sorocaba,SC,Vestuário,Tênis casual,1,62.81,0.00,37.55,Pix,Cancelado,Aplicativo,Outro,FRETEGRATIS,
+PED00318,Paula Nunes,61,2025-04-19,São Bernardo do Campo,SP,Vestuário,Jaqueta,2,233.89,0.20,25.12,Pix,Processando,Marketplace,Outro,CLIENTE15,5
+PED00319,Mateus Carvalho,72,2025-11-19,São Bernardo do Campo,PR,Alimentos,Chocolate,1,1248.06,0.10,42.01,Pix,Em transporte,Aplicativo,macOS,,
+PED00320,Ana Souza,56,2025-01-01,Osasco,RJ,Alimentos,Chocolate,1,1202.54,0.10,43.19,Cartão de crédito,Em transporte,Loja física,iOS,FRETEGRATIS,
+PED00321,Eduarda Costa,54,2026-07-21,Campinas,SP,Livros,Agenda,1,1029.65,0.20,37.01,Boleto,Entregue,Aplicativo,iOS,CLIENTE15,5
+PED00322,Carla Mendes,31,2025-04-05,São José dos Campos,PR,Livros,Livro técnico,4,321.70,0.05,36.50,Cartão de débito,Em transporte,Site,Outro,CLIENTE15,5
+PED00323,Diego Alves,44,2025-12-09,Sorocaba,SC,Eletrônicos,Fone Bluetooth,3,725.65,0.00,35.11,Cartão de débito,Entregue,Site,Windows,,5
+PED00324,Paula Nunes,43,2025-08-15,Jundiaí,SC,Eletrônicos,Carregador USB-C,1,711.58,0.05,22.61,Cartão de crédito,Entregue,Aplicativo,macOS,CLIENTE15,5
+PED00325,Sofia Oliveira,43,2025-02-20,São Bernardo do Campo,RJ,Esportes,Tapete de yoga,1,428.51,0.10,25.71,Cartão de débito,Entregue,Aplicativo,macOS,BLACK25,4
+PED00326,Valentina Dias,38,2025-09-06,Campinas,SP,Alimentos,Granola,2,706.94,0.20,23.59,Cartão de débito,Entregue,Loja física,Windows,FRETEGRATIS,5
+PED00327,William Cardoso,46,2025-12-25,Santos,PR,Livros,Livro de ficção,1,823.57,0.25,13.72,Pix,Em transporte,Aplicativo,Windows,FRETEGRATIS,
+PED00328,Larissa Gomes,18,2025-06-01,Campinas,MG,Alimentos,Granola,4,151.56,0.00,10.94,Cartão de débito,Cancelado,Site,Windows,FRETEGRATIS,5
+PED00329,Ana Souza,27,2026-07-16,São Bernardo do Campo,SC,Alimentos,Azeite,2,264.70,0.15,33.77,Cartão de crédito,Entregue,Loja física,iOS,BEMVINDO10,5
+PED00330,Mateus Carvalho,60,2025-01-09,Campinas,SP,Livros,Caderno,1,874.45,0.05,2.39,Cartão de débito,Entregue,Aplicativo,macOS,,5
+PED00331,Thiago Moreira,47,2025-04-01,São Paulo,SP,Alimentos,Chá,1,402.88,0.25,26.87,Boleto,Entregue,Loja física,macOS,BLACK25,4
+PED00332,Isabela Ferreira,50,2025-11-06,São Paulo,MG,Alimentos,Granola,1,441.64,0.05,15.99,Cartão de crédito,Entregue,Loja física,iOS,FRETEGRATIS,
+PED00333,Henrique Silva,58,2026-06-18,São Bernardo do Campo,RJ,Livros,Livro de história,5,825.45,0.00,32.85,Pix,Devolvido,Marketplace,Windows,,5
+PED00334,João Ribeiro,26,2026-07-09,Osasco,RJ,Livros,Agenda,2,175.57,0.20,6.24,Pix,Em transporte,Aplicativo,Windows,BEMVINDO10,3
+PED00335,Otávio Santos,74,2025-05-30,São Bernardo do Campo,MG,Vestuário,Tênis casual,2,902.81,0.00,14.29,Boleto,Em transporte,Aplicativo,iOS,BEMVINDO10,5
+PED00336,Henrique Silva,32,2026-09-13,São Paulo,MG,Casa,Cafeteira,1,956.03,0.15,27.76,Cartão de débito,Em transporte,Aplicativo,Outro,,3
+PED00337,Otávio Santos,20,2026-05-01,São Paulo,MG,Esportes,Mochila esportiva,3,475.27,0.25,17.44,Pix,Entregue,Aplicativo,iOS,BEMVINDO10,3
+PED00338,Natália Barros,45,2025-11-29,São Paulo,SC,Casa,Organizador,5,1232.21,0.25,27.77,Boleto,Cancelado,Marketplace,Outro,,5
+PED00339,Bruno Lima,74,2026-06-18,Sorocaba,SC,Vestuário,Meias,2,806.22,0.20,35.41,Cartão de débito,Entregue,Site,Outro,BLACK25,4
+PED00340,Paula Nunes,36,2026-02-12,Santos,PR,Vestuário,Calça jeans,3,1203.71,0.00,13.10,Cartão de crédito,Cancelado,Aplicativo,macOS,BLACK25,5
+PED00341,Ana Souza,46,2026-07-14,Santos,PR,Eletrônicos,Carregador USB-C,3,152.55,0.25,26.35,Pix,Entregue,Marketplace,Android,CLIENTE15,4
+PED00342,Mateus Carvalho,58,2025-05-07,Campinas,SC,Livros,Agenda,3,1135.11,0.25,7.38,Pix,Entregue,Marketplace,Outro,BLACK25,5
+PED00343,Bruno Lima,67,2025-06-03,São Bernardo do Campo,MG,Eletrônicos,Teclado mecânico,3,1141.41,0.15,39.21,Cartão de débito,Entregue,Loja física,iOS,BEMVINDO10,3
+PED00344,Ana Souza,69,2026-04-15,Jundiaí,PR,Casa,Luminária,6,16.87,0.25,11.39,Pix,Entregue,Marketplace,macOS,BLACK25,4
+PED00345,Gabriela Martins,70,2025-10-12,São Paulo,RJ,Esportes,Tapete de yoga,1,755.13,0.00,39.70,Cartão de crédito,Em transporte,Loja física,Android,FRETEGRATIS,5
+PED00346,Felipe Rocha,29,2025-03-31,Ribeirão Preto,SC,Eletrônicos,Carregador USB-C,3,1049.54,0.05,14.90,Pix,Entregue,Marketplace,Outro,CLIENTE15,4
+PED00347,João Ribeiro,22,2025-03-11,Guarulhos,RJ,Eletrônicos,Fone Bluetooth,1,382.88,0.05,40.39,Boleto,Processando,Loja física,Outro,BLACK25,5
+PED00348,William Cardoso,62,2026-06-26,Ribeirão Preto,PR,Vestuário,Meias,1,271.20,0.00,4.92,Boleto,Devolvido,Loja física,Outro,,4
+PED00349,Henrique Silva,57,2026-05-25,Ribeirão Preto,RJ,Vestuário,Camiseta,2,173.02,0.15,22.34,Cartão de crédito,Entregue,Site,macOS,BEMVINDO10,3
+PED00350,Ana Souza,31,2025-12-08,Sorocaba,MG,Alimentos,Chocolate,4,1001.96,0.10,18.63,Cartão de crédito,Entregue,Loja física,Windows,,5
+PED00351,Felipe Rocha,19,2026-02-10,Sorocaba,MG,Vestuário,Calça jeans,1,20.09,0.20,15.00,Cartão de débito,Em transporte,Marketplace,Android,FRETEGRATIS,5
+PED00352,Bruno Lima,65,2025-12-10,Osasco,MG,Esportes,Halteres,1,582.51,0.25,24.16,Boleto,Entregue,Site,iOS,,5
+PED00353,Thiago Moreira,42,2025-06-02,Santos,SC,Alimentos,Azeite,1,1146.28,0.25,15.91,Cartão de débito,Entregue,Aplicativo,Outro,BEMVINDO10,1
+PED00354,João Ribeiro,46,2025-03-30,Sorocaba,SC,Livros,Caderno,3,401.69,0.00,12.22,Pix,Entregue,Site,Windows,BEMVINDO10,3
+PED00355,Sofia Oliveira,48,2026-05-28,Ribeirão Preto,MG,Casa,Luminária,5,561.67,0.00,35.96,Cartão de crédito,Entregue,Aplicativo,iOS,BEMVINDO10,4
+PED00356,Larissa Gomes,23,2025-02-15,Guarulhos,SP,Esportes,Garrafa térmica,2,1082.70,0.00,0.18,Boleto,Em transporte,Site,Outro,CLIENTE15,5
+PED00357,Isabela Ferreira,25,2026-06-30,Santos,RJ,Alimentos,Chocolate,5,409.59,0.00,12.90,Cartão de crédito,Entregue,Site,Outro,,4
+PED00358,Henrique Silva,54,2025-05-25,Santos,SP,Vestuário,Calça jeans,1,683.88,0.15,14.33,Boleto,Cancelado,Marketplace,Android,FRETEGRATIS,5
+PED00359,Valentina Dias,56,2025-03-30,Guarulhos,SC,Eletrônicos,Teclado mecânico,2,848.43,0.00,17.26,Boleto,Entregue,Loja física,iOS,,3
+PED00360,Diego Alves,47,2025-04-06,Guarulhos,MG,Eletrônicos,Monitor 24 pol.,6,947.73,0.10,25.55,Cartão de débito,Processando,Aplicativo,iOS,FRETEGRATIS,
+PED00361,Rafael Teixeira,47,2025-12-05,São Paulo,SP,Vestuário,Tênis casual,1,462.27,0.00,31.48,Cartão de crédito,Processando,Loja física,macOS,BLACK25,5
+PED00362,Larissa Gomes,24,2025-04-16,Osasco,SP,Casa,Jogo de panelas,1,443.91,0.15,5.73,Cartão de débito,Entregue,Marketplace,Outro,BLACK25,5
+PED00363,Otávio Santos,45,2025-12-15,Jundiaí,MG,Casa,Toalha de banho,2,690.59,0.10,17.27,Pix,Entregue,Aplicativo,Android,,5
+PED00364,William Cardoso,22,2026-04-01,Campinas,SC,Esportes,Mochila esportiva,1,750.14,0.05,24.98,Boleto,Entregue,Marketplace,Android,BEMVINDO10,
+PED00365,Thiago Moreira,46,2025-01-01,Ribeirão Preto,PR,Casa,Toalha de banho,4,1110.49,0.25,28.63,Cartão de débito,Processando,Aplicativo,iOS,CLIENTE15,5
+PED00366,Valentina Dias,23,2026-03-22,São Paulo,SC,Livros,Livro de história,2,1142.59,0.05,41.33,Cartão de débito,Em transporte,Aplicativo,Windows,BEMVINDO10,
+PED00367,Henrique Silva,19,2026-01-03,São Bernardo do Campo,SC,Livros,Agenda,5,1210.28,0.00,31.65,Boleto,Entregue,Marketplace,macOS,BLACK25,4
+PED00368,Otávio Santos,71,2026-07-23,Santos,MG,Esportes,Tapete de yoga,2,832.33,0.10,6.26,Pix,Entregue,Site,Android,BEMVINDO10,
+PED00369,Paula Nunes,44,2025-05-20,Jundiaí,PR,Casa,Toalha de banho,3,614.79,0.10,43.87,Pix,Entregue,Marketplace,Outro,BLACK25,5
+PED00370,Henrique Silva,64,2026-09-12,Osasco,MG,Vestuário,Tênis casual,4,488.58,0.00,8.36,Boleto,Entregue,Site,Android,,4
+PED00371,Isabela Ferreira,72,2025-03-23,Guarulhos,SC,Esportes,Garrafa térmica,3,152.54,0.10,43.28,Cartão de crédito,Entregue,Aplicativo,macOS,BEMVINDO10,5
+PED00372,Sofia Oliveira,47,2025-12-18,Guarulhos,SC,Alimentos,Chocolate,3,1000.15,0.05,27.59,Cartão de débito,Entregue,Loja física,Windows,CLIENTE15,1
+PED00373,Felipe Rocha,55,2026-08-01,Jundiaí,SP,Casa,Jogo de panelas,1,1154.54,0.20,13.68,Cartão de crédito,Entregue,Loja física,macOS,BEMVINDO10,5
+PED00374,Diego Alves,65,2025-10-15,Jundiaí,RJ,Casa,Toalha de banho,2,1066.16,0.05,11.34,Pix,Entregue,Marketplace,Windows,FRETEGRATIS,4
+PED00375,William Cardoso,27,2025-02-03,Santos,PR,Livros,Agenda,3,304.79,0.00,35.97,Cartão de débito,Entregue,Aplicativo,macOS,FRETEGRATIS,2
+PED00376,João Ribeiro,48,2025-04-29,Guarulhos,SC,Casa,Luminária,2,1054.27,0.00,28.90,Cartão de débito,Entregue,Marketplace,macOS,CLIENTE15,4
+PED00377,Bruno Lima,51,2026-04-05,Campinas,SC,Casa,Jogo de panelas,2,550.48,0.05,41.73,Cartão de débito,Entregue,Loja física,Windows,CLIENTE15,4
+PED00378,Sofia Oliveira,30,2025-09-05,São José dos Campos,RJ,Livros,Caderno,4,328.49,0.15,17.60,Cartão de crédito,Processando,Site,Android,BEMVINDO10,5
+PED00379,Carla Mendes,57,2025-10-18,São Paulo,SC,Esportes,Tapete de yoga,1,141.09,0.10,15.82,Cartão de crédito,Entregue,Site,Android,,1
+PED00380,João Ribeiro,34,2025-07-09,Guarulhos,SP,Casa,Organizador,2,957.77,0.20,25.47,Boleto,Cancelado,Marketplace,Windows,CLIENTE15,5
+PED00381,Isabela Ferreira,70,2025-12-07,Santos,PR,Casa,Cafeteira,3,355.64,0.00,17.23,Cartão de débito,Devolvido,Aplicativo,Outro,BLACK25,4
+PED00382,Isabela Ferreira,46,2025-08-12,Campinas,SP,Casa,Cafeteira,3,146.68,0.15,34.59,Cartão de crédito,Em transporte,Loja física,macOS,BEMVINDO10,3
+PED00383,Valentina Dias,43,2025-09-30,São Paulo,SC,Esportes,Mochila esportiva,1,804.91,0.00,29.91,Cartão de débito,Entregue,Marketplace,macOS,BEMVINDO10,4
+PED00384,Larissa Gomes,40,2026-05-09,Ribeirão Preto,PR,Vestuário,Camiseta,1,488.22,0.20,36.81,Cartão de crédito,Entregue,Loja física,Outro,CLIENTE15,4
+PED00385,Gabriela Martins,60,2025-06-30,Ribeirão Preto,PR,Eletrônicos,Fone Bluetooth,4,953.56,0.05,29.15,Boleto,Em transporte,Marketplace,Android,BLACK25,
+PED00386,Thiago Moreira,68,2026-08-31,Ribeirão Preto,PR,Alimentos,Azeite,1,56.68,0.00,32.39,Cartão de débito,Entregue,Site,Android,CLIENTE15,4
+PED00387,Thiago Moreira,73,2026-06-20,Santos,SC,Eletrônicos,Mouse sem fio,1,904.75,0.10,5.32,Cartão de crédito,Entregue,Site,iOS,BLACK25,5
+PED00388,João Ribeiro,75,2025-05-14,Campinas,PR,Alimentos,Azeite,1,1135.13,0.15,2.06,Pix,Entregue,Site,Android,BEMVINDO10,5
+PED00389,Natália Barros,65,2026-03-13,São José dos Campos,SP,Esportes,Halteres,2,774.34,0.00,36.20,Pix,Entregue,Loja física,iOS,BEMVINDO10,5
+PED00390,Paula Nunes,28,2026-03-02,Sorocaba,SC,Vestuário,Camiseta,1,90.74,0.05,6.36,Pix,Entregue,Site,Outro,BLACK25,4
+PED00391,Otávio Santos,36,2025-04-02,Guarulhos,RJ,Casa,Luminária,1,615.12,0.00,0.33,Pix,Em transporte,Loja física,Outro,BLACK25,5
+PED00392,João Ribeiro,23,2025-07-04,São José dos Campos,PR,Esportes,Garrafa térmica,1,228.50,0.20,1.69,Pix,Em transporte,Aplicativo,Android,,5
+PED00393,Bruno Lima,35,2026-04-21,Sorocaba,SP,Eletrônicos,Mouse sem fio,2,1080.13,0.15,22.84,Cartão de débito,Processando,Marketplace,iOS,FRETEGRATIS,5
+PED00394,Paula Nunes,74,2026-03-22,São Paulo,SP,Alimentos,Café em grãos,5,79.36,0.05,12.83,Pix,Entregue,Aplicativo,Android,BLACK25,5
+PED00395,Larissa Gomes,61,2026-08-17,Sorocaba,SP,Vestuário,Calça jeans,1,1120.16,0.20,20.02,Pix,Entregue,Site,iOS,BLACK25,3
+PED00396,Paula Nunes,57,2025-02-25,Santos,PR,Casa,Jogo de panelas,2,285.57,0.10,26.33,Pix,Cancelado,Marketplace,iOS,CLIENTE15,3
+PED00397,Otávio Santos,47,2025-10-15,Santos,MG,Livros,Livro técnico,1,169.92,0.20,25.59,Boleto,Entregue,Aplicativo,Outro,FRETEGRATIS,5
+PED00398,Rafael Teixeira,55,2026-06-19,Guarulhos,MG,Vestuário,Camiseta,6,1070.57,0.00,18.53,Cartão de débito,Entregue,Aplicativo,iOS,CLIENTE15,
+PED00399,Bruno Lima,20,2026-08-11,Guarulhos,SC,Esportes,Garrafa térmica,2,1116.13,0.15,42.58,Cartão de débito,Cancelado,Marketplace,macOS,BEMVINDO10,4
+PED00400,Henrique Silva,36,2026-02-21,Campinas,SP,Esportes,Mochila esportiva,2,115.33,0.25,0.56,Boleto,Cancelado,Aplicativo,macOS,,3
+PED00401,Paula Nunes,58,2026-02-20,São Paulo,SP,Alimentos,Granola,2,1220.82,0.10,34.73,Boleto,Entregue,Site,Windows,BLACK25,5
+PED00402,Sofia Oliveira,21,2025-03-24,São José dos Campos,SP,Livros,Livro de ficção,3,770.47,0.15,35.75,Cartão de débito,Em transporte,Loja física,macOS,,4
+PED00403,Henrique Silva,39,2026-07-29,Osasco,SP,Eletrônicos,Monitor 24 pol.,2,229.39,0.15,31.72,Pix,Em transporte,Aplicativo,Windows,CLIENTE15,3
+PED00404,Diego Alves,71,2025-12-20,Guarulhos,SC,Livros,Livro de história,2,535.87,0.00,2.85,Boleto,Entregue,Marketplace,Outro,CLIENTE15,4
+PED00405,João Ribeiro,29,2026-04-14,Campinas,SP,Alimentos,Chá,5,1013.38,0.00,8.48,Boleto,Entregue,Site,iOS,BLACK25,4
+PED00406,Rafael Teixeira,26,2026-03-03,São José dos Campos,PR,Casa,Organizador,4,656.85,0.20,1.02,Cartão de crédito,Devolvido,Loja física,iOS,BEMVINDO10,5
+PED00407,Larissa Gomes,68,2026-02-26,Guarulhos,SC,Eletrônicos,Carregador USB-C,4,300.01,0.15,29.01,Cartão de débito,Em transporte,Marketplace,Windows,,5
+PED00408,Bruno Lima,72,2026-05-11,Santos,MG,Casa,Jogo de panelas,5,391.79,0.25,11.70,Cartão de débito,Entregue,Aplicativo,Outro,FRETEGRATIS,4
+PED00409,Valentina Dias,38,2025-06-07,Santos,PR,Alimentos,Chocolate,2,238.07,0.00,37.77,Boleto,Entregue,Aplicativo,iOS,,3
+PED00410,Diego Alves,37,2026-04-05,São Paulo,PR,Alimentos,Granola,1,404.72,0.05,6.66,Pix,Entregue,Marketplace,Windows,FRETEGRATIS,3
+PED00411,Valentina Dias,66,2025-10-30,Santos,SC,Eletrônicos,Monitor 24 pol.,6,688.36,0.15,14.91,Boleto,Entregue,Site,macOS,BEMVINDO10,4
+PED00412,William Cardoso,21,2025-08-14,Sorocaba,SC,Casa,Toalha de banho,3,157.13,0.00,18.07,Pix,Entregue,Loja física,iOS,BEMVINDO10,2
+PED00413,William Cardoso,56,2026-06-09,Osasco,SP,Eletrônicos,Teclado mecânico,2,563.75,0.20,43.09,Cartão de débito,Entregue,Aplicativo,macOS,CLIENTE15,4
+PED00414,Paula Nunes,64,2026-04-02,São Bernardo do Campo,PR,Esportes,Bola de futebol,2,364.75,0.05,13.86,Pix,Cancelado,Marketplace,macOS,FRETEGRATIS,2
+PED00415,Natália Barros,55,2026-06-22,Campinas,SP,Vestuário,Tênis casual,2,190.25,0.05,21.36,Boleto,Devolvido,Marketplace,iOS,,2
+PED00416,João Ribeiro,70,2026-01-26,Jundiaí,MG,Esportes,Mochila esportiva,3,947.11,0.00,8.97,Cartão de débito,Entregue,Aplicativo,Android,BEMVINDO10,4
+PED00417,Felipe Rocha,44,2025-05-08,Guarulhos,RJ,Casa,Cafeteira,1,1195.58,0.25,28.65,Cartão de crédito,Em transporte,Loja física,macOS,BEMVINDO10,5
+PED00418,Diego Alves,62,2025-09-22,São José dos Campos,SC,Vestuário,Meias,3,731.57,0.15,19.62,Cartão de crédito,Em transporte,Loja física,iOS,,4
+PED00419,Mateus Carvalho,58,2025-06-17,São Paulo,MG,Eletrônicos,Teclado mecânico,1,583.04,0.20,6.10,Cartão de crédito,Entregue,Aplicativo,iOS,BEMVINDO10,4
+PED00420,Diego Alves,41,2025-11-05,Osasco,SC,Vestuário,Calça jeans,3,685.34,0.25,14.23,Pix,Entregue,Site,iOS,,5
+PED00421,Gabriela Martins,32,2025-06-16,Osasco,SC,Livros,Livro de história,2,612.56,0.05,41.44,Cartão de crédito,Entregue,Marketplace,macOS,BEMVINDO10,3
+PED00422,Sofia Oliveira,56,2026-01-07,São José dos Campos,RJ,Eletrônicos,Teclado mecânico,4,1155.22,0.10,15.67,Cartão de crédito,Entregue,Site,iOS,FRETEGRATIS,4
+PED00423,Carla Mendes,25,2025-03-22,São Paulo,PR,Alimentos,Granola,1,292.89,0.00,9.44,Cartão de crédito,Entregue,Aplicativo,Android,BEMVINDO10,5
+PED00424,Diego Alves,66,2025-02-14,Campinas,SC,Alimentos,Chá,2,85.84,0.00,40.88,Pix,Entregue,Aplicativo,Windows,BEMVINDO10,5
+PED00425,William Cardoso,67,2025-12-23,Sorocaba,SC,Eletrônicos,Carregador USB-C,1,935.92,0.05,42.70,Cartão de crédito,Entregue,Site,Outro,BEMVINDO10,5
+PED00426,Sofia Oliveira,31,2026-07-05,Guarulhos,MG,Vestuário,Meias,1,249.54,0.05,7.73,Pix,Entregue,Marketplace,Android,FRETEGRATIS,5
+PED00427,Diego Alves,47,2025-04-26,Osasco,RJ,Livros,Agenda,6,537.31,0.15,10.24,Boleto,Processando,Loja física,Outro,BEMVINDO10,4
+PED00428,Thiago Moreira,32,2025-11-16,São Bernardo do Campo,MG,Eletrônicos,Monitor 24 pol.,1,155.71,0.05,20.56,Pix,Em transporte,Site,macOS,CLIENTE15,5
+PED00429,Eduarda Costa,25,2026-03-25,São Bernardo do Campo,PR,Casa,Toalha de banho,1,846.77,0.20,4.73,Cartão de crédito,Entregue,Aplicativo,Android,CLIENTE15,5
+PED00430,Valentina Dias,63,2026-03-11,Jundiaí,MG,Casa,Organizador,1,748.76,0.10,5.52,Boleto,Em transporte,Marketplace,Outro,BLACK25,4
+PED00431,Ana Souza,26,2025-09-14,Campinas,SP,Esportes,Garrafa térmica,2,194.88,0.10,4.86,Cartão de débito,Entregue,Site,iOS,BLACK25,3
+PED00432,Paula Nunes,49,2025-03-20,Sorocaba,MG,Vestuário,Tênis casual,3,201.51,0.15,28.05,Cartão de débito,Em transporte,Loja física,Outro,CLIENTE15,4
+PED00433,Paula Nunes,42,2025-05-02,Guarulhos,SP,Vestuário,Camiseta,2,1191.32,0.00,44.58,Pix,Entregue,Loja física,iOS,BLACK25,4
+PED00434,Thiago Moreira,61,2026-08-06,Jundiaí,PR,Esportes,Mochila esportiva,1,898.21,0.10,34.38,Pix,Em transporte,Site,macOS,CLIENTE15,5
+PED00435,Eduarda Costa,20,2025-10-19,São José dos Campos,MG,Esportes,Halteres,2,480.02,0.20,15.87,Cartão de crédito,Entregue,Loja física,macOS,BEMVINDO10,1
+PED00436,Carla Mendes,55,2025-09-08,Campinas,MG,Esportes,Garrafa térmica,1,454.74,0.05,2.54,Boleto,Entregue,Aplicativo,Android,,5
+PED00437,Ana Souza,55,2026-03-08,São José dos Campos,PR,Livros,Livro de história,1,826.49,0.10,25.56,Cartão de débito,Entregue,Loja física,Outro,BEMVINDO10,5
+PED00438,Gabriela Martins,45,2025-12-14,Guarulhos,SP,Esportes,Halteres,1,847.95,0.05,22.35,Pix,Entregue,Loja física,Windows,BEMVINDO10,4
+PED00439,Larissa Gomes,55,2025-04-05,Ribeirão Preto,SP,Livros,Livro de história,6,510.01,0.00,28.11,Cartão de débito,Em transporte,Marketplace,iOS,CLIENTE15,5
+PED00440,William Cardoso,34,2026-07-07,Osasco,PR,Eletrônicos,Carregador USB-C,3,386.04,0.25,13.50,Pix,Entregue,Site,Outro,FRETEGRATIS,4
+PED00441,William Cardoso,69,2026-04-24,São Bernardo do Campo,SC,Vestuário,Camiseta,2,830.25,0.25,33.40,Pix,Entregue,Loja física,macOS,FRETEGRATIS,5
+PED00442,Gabriela Martins,22,2026-02-25,São Bernardo do Campo,MG,Casa,Jogo de panelas,1,860.57,0.05,37.99,Pix,Entregue,Loja física,Outro,FRETEGRATIS,5
+PED00443,Otávio Santos,45,2025-11-14,São Paulo,RJ,Esportes,Tapete de yoga,1,198.08,0.00,11.05,Boleto,Entregue,Aplicativo,Android,CLIENTE15,5
+PED00444,Carla Mendes,75,2026-05-13,São José dos Campos,SC,Livros,Caderno,3,230.28,0.25,1.90,Cartão de crédito,Processando,Marketplace,Windows,BEMVINDO10,2
+PED00445,Valentina Dias,51,2026-08-08,Osasco,MG,Esportes,Mochila esportiva,5,908.74,0.00,10.62,Cartão de crédito,Processando,Aplicativo,Outro,BEMVINDO10,
+PED00446,Felipe Rocha,24,2025-08-30,Sorocaba,MG,Livros,Agenda,1,735.60,0.10,36.26,Cartão de débito,Cancelado,Loja física,Outro,BEMVINDO10,3
+PED00447,Eduarda Costa,35,2026-03-10,São José dos Campos,PR,Esportes,Bola de futebol,2,878.28,0.00,14.24,Boleto,Entregue,Site,Outro,BEMVINDO10,4
+PED00448,Mateus Carvalho,58,2025-09-03,Campinas,SC,Alimentos,Chá,3,1176.80,0.20,41.29,Cartão de débito,Entregue,Marketplace,Android,BLACK25,4
+PED00449,Larissa Gomes,46,2025-08-04,São Bernardo do Campo,SP,Livros,Caderno,1,1171.20,0.25,10.60,Cartão de crédito,Cancelado,Marketplace,macOS,BLACK25,3
+PED00450,Otávio Santos,40,2025-06-14,Jundiaí,SC,Livros,Caderno,3,1097.49,0.25,4.52,Cartão de débito,Em transporte,Site,Android,FRETEGRATIS,4
+PED00451,Henrique Silva,28,2025-11-09,Osasco,RJ,Alimentos,Azeite,2,805.86,0.00,18.03,Cartão de débito,Entregue,Loja física,macOS,BLACK25,2
+PED00452,Natália Barros,29,2025-10-16,São Bernardo do Campo,SC,Alimentos,Chá,1,227.18,0.15,37.20,Cartão de crédito,Entregue,Site,Outro,,4
+PED00453,Isabela Ferreira,56,2025-06-22,Santos,SP,Alimentos,Chocolate,1,122.61,0.10,8.92,Pix,Entregue,Site,Android,,5
+PED00454,Isabela Ferreira,73,2025-05-02,Ribeirão Preto,PR,Esportes,Mochila esportiva,3,1161.25,0.25,30.31,Pix,Entregue,Marketplace,iOS,,3
+PED00455,Isabela Ferreira,36,2025-07-04,Sorocaba,SC,Casa,Organizador,6,362.67,0.20,8.52,Pix,Entregue,Loja física,Outro,BLACK25,3
+PED00456,Otávio Santos,63,2026-02-12,Jundiaí,MG,Eletrônicos,Fone Bluetooth,1,177.34,0.05,43.85,Cartão de crédito,Em transporte,Site,Android,CLIENTE15,5
+PED00457,Isabela Ferreira,18,2026-09-05,Osasco,SC,Casa,Organizador,2,450.95,0.15,42.27,Boleto,Em transporte,Marketplace,Windows,FRETEGRATIS,5
+PED00458,Sofia Oliveira,38,2025-12-14,São Bernardo do Campo,RJ,Vestuário,Calça jeans,1,234.47,0.00,22.67,Cartão de crédito,Cancelado,Loja física,Android,FRETEGRATIS,3
+PED00459,Isabela Ferreira,57,2026-03-17,Osasco,MG,Esportes,Mochila esportiva,4,1045.57,0.20,16.23,Pix,Entregue,Loja física,macOS,FRETEGRATIS,5
+PED00460,Rafael Teixeira,20,2025-07-13,Ribeirão Preto,RJ,Vestuário,Tênis casual,4,826.06,0.25,19.80,Cartão de débito,Entregue,Site,macOS,BEMVINDO10,3
+PED00461,Mateus Carvalho,25,2025-04-26,Campinas,RJ,Esportes,Bola de futebol,2,889.92,0.10,20.60,Pix,Processando,Aplicativo,Outro,CLIENTE15,5
+PED00462,Carla Mendes,44,2025-01-05,Sorocaba,PR,Vestuário,Camiseta,5,737.28,0.15,44.91,Boleto,Entregue,Site,Windows,BEMVINDO10,5
+PED00463,Rafael Teixeira,63,2025-06-07,Guarulhos,MG,Esportes,Halteres,2,1162.32,0.00,37.66,Cartão de crédito,Entregue,Loja física,Android,,4
+PED00464,João Ribeiro,69,2026-08-06,São José dos Campos,SP,Esportes,Garrafa térmica,1,917.79,0.20,40.81,Cartão de débito,Entregue,Site,macOS,CLIENTE15,5
+PED00465,Eduarda Costa,36,2025-08-02,Campinas,MG,Casa,Organizador,1,966.46,0.10,4.01,Cartão de débito,Entregue,Loja física,Outro,FRETEGRATIS,5
+PED00466,William Cardoso,54,2026-04-02,São Bernardo do Campo,SP,Livros,Agenda,3,1042.17,0.15,8.99,Boleto,Cancelado,Aplicativo,macOS,BLACK25,4
+PED00467,Sofia Oliveira,59,2025-06-08,Campinas,MG,Eletrônicos,Monitor 24 pol.,1,435.41,0.10,30.44,Cartão de débito,Cancelado,Site,macOS,CLIENTE15,4
+PED00468,Carla Mendes,53,2026-06-20,São Paulo,SC,Casa,Cafeteira,6,859.34,0.05,37.87,Cartão de débito,Entregue,Marketplace,Android,BLACK25,5
+PED00469,Paula Nunes,65,2025-03-25,Santos,RJ,Alimentos,Granola,3,1018.37,0.05,11.47,Cartão de crédito,Processando,Site,macOS,CLIENTE15,1
+PED00470,Felipe Rocha,69,2025-09-29,Sorocaba,RJ,Livros,Livro de ficção,2,575.56,0.20,20.25,Boleto,Entregue,Site,macOS,,
+PED00471,William Cardoso,65,2026-04-17,Guarulhos,MG,Eletrônicos,Carregador USB-C,1,156.89,0.00,29.51,Boleto,Em transporte,Marketplace,Windows,BEMVINDO10,5
+PED00472,Eduarda Costa,59,2025-07-12,Sorocaba,PR,Casa,Toalha de banho,1,248.62,0.25,0.71,Pix,Cancelado,Site,Windows,BLACK25,3
+PED00473,Paula Nunes,73,2026-04-01,Jundiaí,RJ,Casa,Luminária,2,39.50,0.00,40.61,Boleto,Devolvido,Marketplace,Android,CLIENTE15,4
+PED00474,João Ribeiro,53,2026-05-23,São Paulo,PR,Eletrônicos,Monitor 24 pol.,1,1061.44,0.10,44.08,Cartão de débito,Processando,Marketplace,iOS,BEMVINDO10,5
+PED00475,Mateus Carvalho,57,2026-03-04,Guarulhos,PR,Vestuário,Camiseta,1,725.80,0.15,2.86,Pix,Cancelado,Loja física,iOS,BLACK25,3
+PED00476,Paula Nunes,63,2025-12-14,Santos,MG,Livros,Agenda,2,640.70,0.15,40.91,Cartão de débito,Cancelado,Loja física,macOS,FRETEGRATIS,5
+PED00477,Diego Alves,49,2025-05-13,São Bernardo do Campo,PR,Vestuário,Calça jeans,1,867.24,0.00,30.02,Pix,Entregue,Aplicativo,Outro,BEMVINDO10,3
+PED00478,Diego Alves,45,2026-05-31,Jundiaí,RJ,Eletrônicos,Fone Bluetooth,2,335.25,0.20,7.14,Pix,Entregue,Marketplace,Windows,CLIENTE15,2
+PED00479,Diego Alves,56,2025-06-04,São Paulo,PR,Livros,Agenda,3,965.49,0.15,12.04,Cartão de crédito,Cancelado,Site,Outro,,5
+PED00480,João Ribeiro,28,2025-05-01,Guarulhos,SC,Eletrônicos,Monitor 24 pol.,4,64.44,0.00,7.52,Cartão de crédito,Cancelado,Aplicativo,Windows,CLIENTE15,
+PED00481,João Ribeiro,39,2025-01-07,Osasco,RJ,Casa,Cafeteira,1,262.34,0.10,34.61,Boleto,Entregue,Loja física,macOS,CLIENTE15,5
+PED00482,Paula Nunes,44,2025-08-22,Osasco,MG,Alimentos,Café em grãos,3,200.12,0.25,23.83,Cartão de débito,Entregue,Aplicativo,Android,,4
+PED00483,Eduarda Costa,59,2025-03-04,Jundiaí,SP,Eletrônicos,Carregador USB-C,1,402.07,0.25,7.39,Boleto,Entregue,Marketplace,macOS,,1
+PED00484,Natália Barros,27,2025-10-14,Guarulhos,RJ,Livros,Livro de história,3,400.70,0.05,0.36,Cartão de débito,Cancelado,Loja física,macOS,FRETEGRATIS,5
+PED00485,Carla Mendes,31,2025-05-10,Osasco,SC,Livros,Caderno,1,677.57,0.10,32.63,Boleto,Entregue,Aplicativo,Android,BEMVINDO10,5
+PED00486,Mateus Carvalho,21,2026-03-09,Ribeirão Preto,SC,Vestuário,Calça jeans,2,311.16,0.25,13.68,Cartão de crédito,Devolvido,Site,Android,BLACK25,3
+PED00487,Thiago Moreira,58,2026-08-19,Jundiaí,RJ,Livros,Caderno,2,18.95,0.05,44.23,Boleto,Em transporte,Loja física,Outro,FRETEGRATIS,5
+PED00488,Diego Alves,47,2026-08-20,Santos,PR,Alimentos,Granola,2,925.17,0.00,14.75,Cartão de crédito,Entregue,Site,Android,BLACK25,5
+PED00489,Isabela Ferreira,43,2026-02-17,Jundiaí,PR,Casa,Organizador,2,564.63,0.05,30.46,Cartão de débito,Em transporte,Marketplace,macOS,FRETEGRATIS,4
+PED00490,Paula Nunes,31,2026-06-10,Guarulhos,SP,Casa,Luminária,2,612.40,0.10,5.82,Boleto,Cancelado,Site,Outro,BLACK25,3
+PED00491,João Ribeiro,37,2025-05-01,Guarulhos,SP,Eletrônicos,Mouse sem fio,1,720.06,0.00,23.52,Pix,Entregue,Marketplace,Android,CLIENTE15,
+PED00492,Rafael Teixeira,44,2026-07-15,Jundiaí,MG,Livros,Livro de história,1,1026.17,0.10,0.09,Cartão de débito,Entregue,Loja física,macOS,BLACK25,5
+PED00493,Larissa Gomes,27,2026-04-17,Campinas,SC,Alimentos,Azeite,4,176.85,0.00,22.71,Cartão de débito,Processando,Marketplace,iOS,BLACK25,5
+PED00494,João Ribeiro,54,2025-04-01,Osasco,SP,Livros,Livro de história,2,1198.12,0.10,33.12,Cartão de crédito,Cancelado,Aplicativo,Outro,,5
+PED00495,Thiago Moreira,60,2026-05-03,Santos,SP,Vestuário,Calça jeans,3,1197.15,0.15,8.52,Pix,Entregue,Aplicativo,Outro,BLACK25,1
+PED00496,Felipe Rocha,45,2026-05-19,São Bernardo do Campo,SP,Eletrônicos,Carregador USB-C,4,763.48,0.10,26.50,Boleto,Cancelado,Marketplace,Windows,BEMVINDO10,1
+PED00497,Felipe Rocha,44,2025-09-19,São Paulo,SC,Eletrônicos,Teclado mecânico,6,682.95,0.05,6.48,Pix,Processando,Site,Android,CLIENTE15,3
+PED00498,Valentina Dias,56,2025-05-04,Sorocaba,PR,Esportes,Halteres,1,188.79,0.05,11.61,Cartão de débito,Entregue,Site,Windows,BEMVINDO10,3
+PED00499,Valentina Dias,53,2025-08-28,Campinas,RJ,Livros,Livro de história,2,516.26,0.10,1.30,Pix,Cancelado,Loja física,Outro,BLACK25,1
+PED00500,Henrique Silva,68,2025-05-26,Osasco,PR,Esportes,Halteres,1,799.30,0.00,35.23,Cartão de débito,Entregue,Site,Android,BLACK25,
