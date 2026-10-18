@@ -1,6 +1,6 @@
 # toda sessão PySpark começa criando uma SparkSession
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col, round as spark_round
 
 spark = (
     SparkSession.builder
@@ -39,6 +39,7 @@ df.select(col('cliente'), col('preco_unitario'), col('quantidade')).show(10)
 **************** FILTROS *****************
 ******************************************
 """
+
 # Função filter
 df.filter(col('quantidade') > 1).select('cliente','preco_unitario','quantidade').show()
 
@@ -58,5 +59,17 @@ df.filter(
 
 # Atalho com isin()
 df.filter(col("status_pedido").isin("Cancelado", "Devolvido")).select('status_pedido', 'produto','cliente').show(10)
-spark.stop()
 
+"""
+**************************************************************
+**************** CRIAR E TRANSFORMAR COLUNAS *****************
+**************************************************************
+"""
+
+# Calculas valor bruto = quantidade x preço unitário
+df_com_bruto = df.withColumn(
+    'valor_bruto',
+    col('quantidade') * col('preco_unitario')
+).select('cliente', 'valor_bruto').show(10)
+
+spark.stop()
