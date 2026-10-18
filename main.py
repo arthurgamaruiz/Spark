@@ -41,5 +41,11 @@ df.select(col('cliente'), col('preco_unitario'), col('quantidade')).show(10)
 """
 # Função filter
 df.filter(col('quantidade') > 1).select('cliente','preco_unitario','quantidade').show()
+
+# Pedidos com preço unitário maior que 1000
+df.filter(col('preco_unitario') > 1000).select('cliente','preco_unitario', 'produto').show()
+
+
+
 spark.stop()
 
