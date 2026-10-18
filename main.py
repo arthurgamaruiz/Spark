@@ -45,7 +45,7 @@ df.filter(col('quantidade') > 1).select('cliente','preco_unitario','quantidade')
 # Pedidos com preço unitário maior que 1000
 df.filter(col('preco_unitario') > 1000).select('cliente','preco_unitario', 'produto').show()
 
-
-
+# Pedidos com eletrônicos - coluna categoria
+df.filter(col('categoria') == 'Eletrônicos').select('produto', 'data_pedido', 'quantidade').show()
 spark.stop()
 
