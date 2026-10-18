@@ -66,10 +66,18 @@ df.filter(col("status_pedido").isin("Cancelado", "Devolvido")).select('status_pe
 **************************************************************
 """
 
-# Calculas valor bruto = quantidade x preço unitário
+# Calcular valor bruto = quantidade x preço unitário
 df_com_bruto = df.withColumn(
     'valor_bruto',
     col('quantidade') * col('preco_unitario')
-).select('cliente', 'valor_bruto').show(10)
+)
+df_com_bruto.select('cliente', 'valor_bruto').show(10)
+
+# Valor com desconto
+df_com_desconto = df_com_bruto.withColumn(
+    'valor_com_desconto',
+    spark_round(col('valor_bruto') * (1-col('desconto_pct')), 2)
+)
+df_com_desconto.select('valor_bruto','desconto_pct','valor_com_desconto').show(10)
 
 spark.stop()
