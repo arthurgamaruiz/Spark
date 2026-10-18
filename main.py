@@ -1,7 +1,7 @@
 # toda sessão PySpark começa criando uma SparkSession
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, round as spark_round
-from pyspark.sql.function import count, when, isnan, lit
+from pyspark.sql.functions import count, when, isnan, lit
 """
 *****************************************************
 **************** SELEÇÃO DE COLUNAS *****************
@@ -104,12 +104,16 @@ df_final.select(
 **************** TRATAR VALORES NULOS ************************
 **************************************************************
 """
-# Dados reais vêm com campos vazios. No seu arquivo, cupom e avaliacao têm valores ausentes. Tratar isso é essencial em qualquer ETL.
+# Dados reais vêm com campos vazios. No arquivo, 'cupom' e 'avaliacao' têm valores ausentes. Tratar isso é essencial em qualquer ETL.
 
 # Contar valores nulos por coluna
 df.select([
     count(when(col(c).isNull(), c)).alias(c) for c in df.columns
 ]).show(truncate=False)
+
+# Preencher 'cupom' vazio com 'SEM_CUPOM'
+df_tratado = df.fillna({'cupom': 'SEM_CUPOM'})
+df_tratado.select('cupom').show()
 
 
 spark.stop()
