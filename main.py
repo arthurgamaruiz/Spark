@@ -1,7 +1,13 @@
 # toda sessão PySpark começa criando uma SparkSession
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, round as spark_round
-
+from pyspark.sql.function import count, when, isnan, lit
+"""
+*****************************************************
+**************** SELEÇÃO DE COLUNAS *****************
+*****************************************************
+"""
+# Escolher quais colunas você quer visualizar ou processar. Equivalente ao SELECT do SQL.
 spark = (
     SparkSession.builder
     .appName("EstudoPySpark")
@@ -39,6 +45,7 @@ df.select(col('cliente'), col('preco_unitario'), col('quantidade')).show(10)
 **************** FILTROS *****************
 ******************************************
 """
+# Selecionar apenas os registros que atendem a uma condição. Equivalente ao WHERE do SQL.
 
 # Função filter
 df.filter(col('quantidade') > 1).select('cliente','preco_unitario','quantidade').show()
@@ -65,6 +72,7 @@ df.filter(col("status_pedido").isin("Cancelado", "Devolvido")).select('status_pe
 **************** CRIAR E TRANSFORMAR COLUNAS *****************
 **************************************************************
 """
+# Adicionar colunas novas ou modificar existentes. Muito usado na etapa T (Transform) do ETL.
 
 # Calcular valor bruto = quantidade x preço unitário
 df_com_bruto = df.withColumn(
@@ -90,5 +98,18 @@ df_final.select(
     'pedido_id','produto','quantidade','preco_unitario','desconto_pct',
     'frete','valor_bruto','valor_com_desconto','valor_final'
 ).show(10, truncate=False)
+
+"""
+**************************************************************
+**************** TRATAR VALORES NULOS ************************
+**************************************************************
+"""
+# Dados reais vêm com campos vazios. No seu arquivo, cupom e avaliacao têm valores ausentes. Tratar isso é essencial em qualquer ETL.
+
+# Contar valores nulos por coluna
+df.select([
+    count(when(col(c).isNull(), c)).alias(c) for c in df.columns
+]).show(truncate=False)
+
 
 spark.stop()
