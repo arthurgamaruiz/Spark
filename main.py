@@ -33,5 +33,13 @@ df = (
 
 # Função col()
 df.select(col('cliente'), col('preco_unitario'), col('quantidade')).show(10)
+
+"""
+******************************************
+**************** FILTROS *****************
+******************************************
+"""
+# Função filter
+df.filter(col('quantidade') > 1).select('cliente','preco_unitario','quantidade').show()
 spark.stop()
 
