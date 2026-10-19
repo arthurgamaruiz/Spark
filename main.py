@@ -1,7 +1,7 @@
 # toda sessão PySpark começa criando uma SparkSession
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, round as spark_round
-from pyspark.sql.functions import count, when, isnan, lit
+from pyspark.sql.functions import count, when, isnan, lit, sum, avg, min, max
 """
 *****************************************************
 **************** SELEÇÃO DE COLUNAS *****************
@@ -118,5 +118,13 @@ df_tratado.select('cupom').show()
 # Preencher 'avaliacao' vazia com mediana/valor padrão
 df_tratado = df_tratado.fillna({'avaliacao': 0})
 df_tratado.select('cupom', 'avaliacao').show()
+
+"""
+**************************************************************
+*********************** AGREGAÇÕES ***************************
+**************************************************************
+"""
+
+# Agrupar dados e calcular métricas
 
 spark.stop()
