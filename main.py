@@ -115,5 +115,8 @@ df.select([
 df_tratado = df.fillna({'cupom': 'SEM_CUPOM'})
 df_tratado.select('cupom').show()
 
+# Preencher 'avaliacao' vazia com mediana/valor padrão
+df_tratado = df_tratado.fillna({'avaliacao': 0})
+df_tratado.select('cupom', 'avaliacao').show()
 
 spark.stop()
