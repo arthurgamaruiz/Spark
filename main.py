@@ -134,4 +134,12 @@ df_faturamento_bruto = df_final.groupBy('categoria').agg(
 
 df_faturamento_bruto.select('*').show()
 
+# Análise de vendas por estado
+print("**** VENDAS POR ESTADO ****")
+
+df_final.groupBy('estado').agg(
+    count('pedido_id').alias('qtd_pedidos'),
+    spark_round(sum('valor_final'), 2).alias('receita_estado')
+).orderBy(col('receita_estado').desc()).show(10)
+
 spark.stop()
