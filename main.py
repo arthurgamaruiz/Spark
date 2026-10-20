@@ -1,12 +1,20 @@
 # toda sessão PySpark começa criando uma SparkSession
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, round as spark_round
-from pyspark.sql.functions import count, when, isnan, lit, sum, avg, min, max
+from pyspark.sql.functions import count, when, isnan, lit, sum, avg, min, max, year, month, date_format
+import os
+import sys
+
+# Força o Spark a usar exatamente o Python do nosso ambiente virtual (.venv)
+os.environ["PYSPARK_PYTHON"] = sys.executable
+os.environ["PYSPARK_DRIVER_PYTHON"] = sys.executable
+
 """
 *****************************************************
 **************** SELEÇÃO DE COLUNAS *****************
 *****************************************************
 """
+
 # Escolher quais colunas você quer visualizar ou processar. Equivalente ao SELECT do SQL.
 spark = (
     SparkSession.builder
@@ -141,5 +149,66 @@ df_final.groupBy('estado').agg(
     count('pedido_id').alias('qtd_pedidos'),
     spark_round(sum('valor_final'), 2).alias('receita_estado')
 ).orderBy(col('receita_estado').desc()).show(10)
+
+"""
+*******************************************************
+**************** MANIPULAÇÃO DE DATAS *****************
+*******************************************************
+"""
+
+# =====================================
+# Extração de dia, mês ou ano em datas
+# =====================================
+
+#  Garantir que a coluna de data está no tipo Date e extrair Ano/Mês
+df_com_datas = df_final.withColumn(
+    'ano_pedido',
+    year(col('data_pedido'))
+).withColumn(
+    'mes_pedido',
+    month(col('data_pedido'))
+).withColumn(
+    'ano_mes',
+    date_format(col('data_pedido'), 'yyyy-MM')
+)
+print("**** DATAS TRANSFORMADAS (ANOS E MESES) ****")
+df_com_datas.select('pedido_id','data_pedido','ano_pedido','mes_pedido','ano_mes').show()
+
+"""
+*******************************************************
+*********************** JOINS *************************
+*******************************************************
+"""
+
+# ==============================
+# Criação de uma tabela auxiliar 
+# ==============================
+
+# linhas
+dados_gerentes = [
+    ('SP', 'Carlos Silva', 'Região Sudeste'),
+    ("RJ", "Mariana Costa", "Região Sudeste"),
+    ("PR", "João Santos", "Região Sul"),
+    ("MG", "Fernanda Lima", "Região Sudeste")
+]
+
+# colunas
+colunas_gerentes = ['sigla_estado','gerente','regiao']
+
+# df de gerentes
+df_gerentes = spark.createDataFrame(dados_gerentes, colunas_gerentes)
+
+print("**** TABELA AUXILIAR DE GERENTES/REGIÕES ***")
+df_gerentes.show(truncate=False)
+
+# Left join entre o DataFrame principal e a tabela de gerentes
+df_com_join = df_com_datas.join(
+    df_gerentes,
+    df_com_datas['estado'] == df_gerentes['sigla_estado'],
+    'left'
+).drop('sigla_estado')      # remove a coluna duplicada da chave de join
+
+print("**** RESULTADO APÓS LEFT JOIN ****")
+df_com_join.select("pedido_id", "cidade", "estado", "regiao", "gerente", "valor_final").show(5, truncate=False)
 
 spark.stop()
