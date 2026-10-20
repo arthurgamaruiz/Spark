@@ -127,4 +127,11 @@ df_tratado.select('cupom', 'avaliacao').show()
 
 # Agrupar dados e calcular métricas
 
+# Faturamento bruto por categoria
+df_faturamento_bruto = df_final.groupBy('categoria').agg(
+    spark_round(sum('valor_bruto'), 2).alias('faturamento_bruto'),
+    count('pedido_id').alias('total_pedidos')).orderBy(col('faturamento_bruto').desc())
+
+df_faturamento_bruto.select('*').show()
+
 spark.stop()
