@@ -1,7 +1,8 @@
 # toda sessão PySpark começa criando uma SparkSession
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, round as spark_round
-from pyspark.sql.functions import count, when, isnan, lit, sum, avg, min, max, year, month, date_format
+from pyspark.sql.functions import count, when, isnan, lit, sum, avg, min, max, year, month, date_format, row_number, desc
+from pyspark.sql.window import Window
 import os
 import sys
 
@@ -211,4 +212,18 @@ df_com_join = df_com_datas.join(
 print("**** RESULTADO APÓS LEFT JOIN ****")
 df_com_join.select("pedido_id", "cidade", "estado", "regiao", "gerente", "valor_final").show(5, truncate=False)
 
+
+"""
+**************************************************************
+******************* WINDOW FUNCTIONS *************************
+**************************************************************
+"""
+# teste data atual sparl
+from datetime import datetime, timedelta
+
+hoje = datetime.now()                                           # data atual
+data_d0 = hoje.strftime('%d/%m/%Y')
+data_d1 = (hoje - timedelta(days=1)).strftime('%d/%m/%y')       # dia anterior  
+print(f"Hoje: {data_d0}\nOntem: {data_d1}")
+print(type(data_d0))
 spark.stop()
